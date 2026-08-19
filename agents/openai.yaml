@@ -1,0 +1,7 @@
+interface:
+  display_name: "市场雷达"
+  short_description: "追踪产品价格、供需与原材料变化"
+  default_prompt: "Use $market-radar to 串流查询某产品的原材料价格、产品行情与供需周期，并生成一个带来源的中文 HTML 面板。"
+
+policy:
+  allow_implicit_invocation: true

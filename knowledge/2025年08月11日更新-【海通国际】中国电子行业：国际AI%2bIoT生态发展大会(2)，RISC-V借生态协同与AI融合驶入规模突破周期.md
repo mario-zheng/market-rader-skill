@@ -1,0 +1,746 @@
+研究报告 Research Report
+
+
+28 Jul 2025
+
+## 中国电子 China (Overseas) Technology
+
+# 国际 AI+IoT 生态发展大会（ 2 ）： RISC-V 借生态协同与 AI 融合驶入规模突 破周期
+
+
+International AI+IoT Eco-Development Conference (1): RISC-V Enters Scale - Breaking Cycle via Ecosystem Synergy and AI
+
+
+Integration
+
+姚书桥 **Barney Yao**
+
+barney.sq.yao@htisec.com 热点速评 Flash Analysis
+
+
+(Please see APPENDIX 1 for English summary)
+
+
+事件
+
+
+7 月 24 日在深圳举办的 2025 （第六届）国际 AI+IoT 生态发展大会以 “ 智联万物，赋能未来” 为主题，聚焦边缘算
+力优化、设备互联兼容等技术痛点，推动 AI 与物联网深度融合。大会释放出边缘计算、卫星物联、端侧 AI 等领域
+的产业化信号，预计将加速 AIoT 技术在智能制造、智慧城市等场景的规模化落地。除了英特尔边缘 AI 控制器等前
+沿技术与产品外，大会还包括以下亮点。
+
+点评
+
+
+大会聚焦多模态交互技术的场景化突破，生物仿真技术驱动交互体验升级。 艾迈斯欧司朗展示的生物仿真触觉反
+馈智能终端，通过高精度压力传感器阵列实现 0.01N 级力度感知，已应用于医疗康复设备的精准触觉训练。恩智浦
+推出的融合视觉识别与语音交互的家庭自动化系统，支持多设备联动控制，在海尔智家三翼鸟生态中实现 “ 用户行
+为预判式服务”，例如根据历史数据自动调节空调温度并推荐健康食谱，使家庭能源消耗降低 18% 。泰凌微电子的
+低功耗蓝牙芯片凭借多模态数据融合技术，在可穿戴设备中实现心率、体温、运动状态的实时监测
+
+**2025 MCU** 及嵌入式技术论坛聚焦低功耗与边缘智能融合，展出边缘 **AI** 芯片性能突破。 兆易创新发布的 GD32H7 系
+列 MCU 集成 NPU ，支持 700 亿参数大模型的边缘推理，能效比达 8TOPS/W ，可满足智能安防摄像头的实时目标识
+别需求。极海半导体的 APM32E4 系列芯片采用 40nm 工艺，功耗较上一代降低 40% ，已用于智能电表的异常数据
+实时分析。上海贝岭在电机驱动与控制技术论坛展示的 BLDC 电机驱动芯片，通过数字锁相环技术实现 ±0.5% 的速
+度控制精度，适配扫地机器人、工业机械臂等场景。
+
+智能家居领域， **AIoT** 生态构建 **“** 预判式服务”。 海尔智家三翼鸟团队在大会现场演示基于多模态交互的家居设备协
+同系统，通过用户行为数据分析实现 “ 无感化服务”，例如当用户靠近冰箱时自动推荐食材搭配方案，同时联动烤
+箱预热至最佳温度，使家庭生活效率提升 30% 。美时龙技术发布的车联网融合定位方案，结合 UWB 与惯性导航技
+术实现车辆厘米级精准导航，支持自动泊车与充电桩智能调度。泰凌微电子的低功耗蓝牙芯片因技术领先性获
+“2025 年度 AIoT 创新奖”，其多模态数据融合能力为智能门锁、环境监测设备提供稳定连接支持。
+
+**RISC-V** 凭借开源架构 **+ AI** 适配性成为技术创新核心议题， **RDI** 联盟构建 **“** 三位一体” 产业矩阵。 大会正式披露 RDI
+（ RISC-V 数字基础设施）聚力联盟 生态蓝图： 1 ）技术层：整合 15+ IP 及芯片企业（覆盖 RISC-V IP 设计、芯片方
+案，以及 GPU/DPU 异构计算厂商），聚焦边缘 AI 场景的算力架构优化； 2 ）软件层：联合 20 + 软件及生态机构
+（操作系统商、应用软件服务商、中间件企业），突破 AI 模型部署与多模态数据交互的适配瓶颈； 3 ）服务层：联
+动 5 + 产业服务主体（股权投资、产业服务机构），打通 “ 技术   - 资本   - 落地” 链路。同时，联盟依托 北京、成都、
+武汉等多地创新中心，构建 “ 开源开发平台   - 测试验证平台   - 应用示范平台   - 规范联盟平台” 协同网络，目标 3 年内
+推动 RISC-V 在 AIoT 终端的渗透率提升至 30% 。
+
+**AI** 融合催生规模级增长曲线， **RISC-V** 市场规模 **2025** 年约 **1190** 亿人民币， **2030** 年预计达 **6530** 亿人民币。 核心驱动
+力源于 “RISC-V+AI” 的协同效应， RISC-V 的开源灵活性、低功耗特性，与 AIoT 边缘设备的 “ 分布式算力需求” 高度
+匹配，推动其在智能穿戴、工业传感器、智能家居等场景快速渗透。大会明确 RISC-V 的 AI 落地路径： 1 ）芯片端：
+联盟企业已推出 异构融合架构（如集成 NPU 的 RISC-V MCU ），支持边缘端 700 亿参数大模型推理（如兆易创新
+
+
+本研究报告由海通国际分销，海通国际是由海通国际研究有限公司，海通证券印度私人有限公司，海通国际株式会社和海通国
+际证券集团其他各成员单位的证券研究团队所组成的全球品牌，海通国际证券集团各成员分别在其许可的司法管辖区内从事证
+券活动。关于海通国际的分析师证明，重要披露声明和免责声明，请参阅附录。 (Please see appendix for English translation of the
+disclaimer)
+
+
+GD32R 系列芯片，能效比达 8TOPS/W ）； 2 ）软件端：操作系统与中间件企业同步开发 AI 模型轻量化部署工具，实
+现 “ 训练在云端、推理在边缘” 的无缝衔接，降低开发者适配成本； 3 ）场景端：首批示范应用已落地 —— 智能工
+业传感器通过 RISC-V 内核实现实时工况分析，智能门锁借助 RISC-V + 多模态交互提升识别精度，验证架构在 AIoT
+场景的商用潜力。 RISC-V 正通过 生态联盟聚合资源、 AI 融合突破规模、场景落地验证价值，成为 AIoT 时代 “ 开源架
+构革命” 的核心引擎。
+
+风险
+
+
+1 ）市场竞争加剧 2 ）技术验证不及预期 3 ）地缘政治与监管风险
+
+
+热点速评 Flash Analysis
+
+
+本研究报告由海通国际分销，海通国际是由海通国际研究有限公司，海通证券印度私人有限公司，海通国际株式会社和海通国
+际证券集团其他各成员单位的证券研究团队所组成的全球品牌，海通国际证券集团各成员分别在其许可的司法管辖区内从事证
+券活动。关于海通国际的分析师证明，重要披露声明和免责声明，请参阅附录。 (Please see appendix for English translation of the
+disclaimer)
+
+
+**中国电子**
+
+
+
+**Fig.1** **2030** 年全球 **RISC-V** 市场规模将达到 **6530** 亿人民币
+
+
+Source: 第六届国际 AI+IoT 生态发展大会, HTI
+
+
+**Fig.2** **AI** 技术发展引领行业全链路场景变革
+
+
+Source: 第六届国际 AI+IoT 生态发展大会, HTI
+
+
+**28 Jul 2025** **3**
+
+
+**中国电子**
+
+
+
+**Fig.3** **RDI** 聚力联盟与创新中心生态建设
+
+
+Source: 第六届国际 AI+IoT 生态发展大会, HTI
+
+
+**28 Jul 2025** **4**
+
+
+中国电子
+
+
+**APPENDIX 1**
+
+
+**Summary**
+
+
+**Event**
+
+
+The 6th Global AI+IoT Ecosystem Development Conference 2025, hosted in Shenzhen on July 24 under the theme “Connecting
+Everything, Empowering the Future”, prioritized resolving technical bottlenecks (e.g., edge computing optimization, device
+interoperability) to accelerate AI-IoT integration. It signaled industrialization trends in edge AI, satellite IoT, and more, driving
+large-scale deployment across smart manufacturing and smart cities. Key highlights:
+
+
+**Comment**
+
+
+**Multimodal Interaction: Biometric Simulation Redefines User Experience. A** MS OSRAM unveiled a biometric tactile feedback
+terminal with a high-precision pressure sensor array (0.01N force sensitivity), deployed in medical rehabilitation for precise tactile
+training. NXP’s vision-voice integrated home automation system enabled “predictive services” in Haier’s Three Wings ecosystem—
+e.g., auto-adjusting HVAC and recommending recipes, cutting home energy consumption by 18%. Telink’s low-power Bluetooth
+chip, leveraging multi-modal data fusion, enabled real-time monitoring of vital signs (heart rate, temperature) and motion in
+wearables.
+
+
+**The 2025 MCU & Embedded Technology Forum spotlighted low-power, edge-AI convergence.** GigaDevice’s GD32H7 series MCU
+(integrated NPU) supported 70-billion-parameter edge inference at 8TOPS/W, meeting smart surveillance cameras’ real-time
+recognition needs. Geehy’s APM32E4 series (40nm process) reduced power consumption by 40% vs. its predecessor, powering
+smart meters’ real-time anomaly detection. Shanghai Belling’s BLDC motor driver chip, using digital phase-locked loops, achieved
+±0.5% speed accuracy for robot vacuums and industrial robotic arms.
+
+
+**Smart Home: AIoT Enables “Seamless Predictive Services”.** Haier’s Three Wings demonstrated a multi-modal interaction-driven
+home ecosystem, delivering “seamless services”—e.g., fridges recommending recipes and ovens preheating as users approach,
+boosting home efficiency by 30%. Mechatron’s V2X positioning solution (UWB + inertial navigation) enabled centimeter-level
+vehicle navigation, supporting automatic parking and charger scheduling. Telink’s low-power Bluetooth chip won the “2025 AIoT
+Innovation Award” for multi-modal connectivity, powering smart locks and environmental sensors.
+
+
+**RISC-V: Open-Source + AI Fuel Ecosystem and Market Expansion.** RISC-V emerged as a core innovation focus, with the RDI (RISCV Digital Infrastructure) Alliance building a three-pillar industrial matrix: 1) Technology Layer: 15+ IP/chip firms (RISC-V IP, chip
+solutions, GPU/DPU heterogeneous computing) optimize edge-AI architectures. 2) Software Layer: 20+ software/ecosystem
+players tackle AI model deployment and multi-modal interaction bottlenecks. 3) Service Layer: 5+ industrial service entities bridge
+“technology-capital-commercialization”. Backed by innovation hubs in Beijing, Chengdu, and Wuhan, the alliance aims to build a
+collaborative network (open-source development, testing, application demonstration, standardization) to boost RISC-V
+penetration in AIoT devices to 30% within 3 years.
+
+
+**Market data showed RISC-V scaling rapidly: ~RMB 119 billion in 2025, projected to reach ~RMB 653 billion by 2030** —driven by
+RISC-V’s open-source flexibility/low power matching AIoT’s distributed computing demands (adopted in wearables, industrial
+sensors, smart homes). Its AI deployment path: 1) Chip-side: Heterogeneous architectures (e.g., RISC-V MCUs with NPU, like
+GigaDevice’s GD32R series, 8TOPS/W). 2) Software-side: Lightweight AI tools enable “cloud training, edge inference,” reducing
+developer costs. 3) Scenario-side: Pilots (RISC-V-powered industrial sensors, multi-modal smart locks) validate commercial
+potential. RISC-V is becoming the core engine of the “open-source architecture revolution” in the AIoT era, uniting ecosystems,
+scaling via AI integration, and proving value through real-world deployments.
+
+
+**Risks**
+
+
+1) Intensifying market competition; 2) Technology performance falling short of expectations; 3) Geopolitical and regulatory risks
+
+
+**28 Jul 2025** **5**
+
+
+中国电子
+
+
+
+**28 Jul 2025** **6**
+
+
+附录 **APPENDIX**
+
+
+重要信息披露
+
+本研究报告由海通国际分销，海通国际是由海通国际研究有限公司 (HTIRL) ， Haitong Securities India Private Limited (HSIPL) ， Haitong International Japan K.K. (HTIJKK) 和海通国际证券有限公
+
+司 (HTISCL) 的证券研究团队所组成的全球品牌，海通国际证券集团 (HTISG) 各成员分别在其许可的司法管辖区内从事证券活动。
+
+**IMPORTANT DISCLOSURES**
+This research report is distributed by Haitong International, a global brand name for the equity research teams of Haitong International Research Limited (“HTIRL”), Haitong Securities India Private
+Limited (“HSIPL”), Haitong International Japan K.K. (“HTIJKK”), Haitong International Securities Company Limited (“HTISCL”), and any other members within the Haitong International Securities Group
+of Companies (“HTISG”), each authorized to engage in securities activities in its respective jurisdiction.
+
+**HTIRL** 分析师认证 **Analyst Certification** :
+
+我， 姚书桥，在此保证（ i ）本研究报告中的意见准确反映了我们对本研究中提及的任何或所有目标公司或上市公司的个人观点，并且（ ii ）我的报酬中没有任何部分与本研究报告中表
+
+达的具体建议或观点直接或间接相关；及就此报告中所讨论目标公司的证券，我们（包括我们的家属）在其中均不持有任何财务利益。我和我的家属（我已经告知他们）将不会在本研
+
+究报告发布后的 3 个工作日内交易此研究报告所讨论目标公司的证券。 I, Barney Yao, certify that (i) the views expressed in this research report accurately reflect my personal views about any
+
+or all of the subject companies or issuers referred to in this research and (ii) no part of my compensation was, is or will be directly or indirectly related to the specific recommendations or views
+expressed in this research report; and that I (including members of my household) have no financial interest in the security or securities of the subject companies discussed. I and my household,
+whom I have already notified of this, will not deal in or trade any securities in respect of the issuer that I review within 3 business days after the research report is published.
+
+
+利益冲突披露 **Conflict of Interest Disclosures**
+
+海通国际及其某些关联公司可从事投资银行业务和 / 或对本研究中的特定股票或公司进行做市或持有自营头寸。就本研究报告而言，以下是有关该等关系的披露事项（以下披露不能保
+
+证及时无遗漏，如需了解及时全面信息，请发邮件至 ERD-Disclosure@htisec.com ）
+
+HTI and some of its affiliates may engage in investment banking and / or serve as a market maker or hold proprietary trading positions of certain stocks or companies in this research report. As far
+as this research report is concerned, the following are the disclosure matters related to such relationship (As the following disclosure does not ensure timeliness and completeness, please send an
+email to ERD-Disclosure@htisec.com if timely and comprehensive information is needed).
+
+No Disclosure
+
+
+评级定义（从 **2020** 年 **7** 月 **1** 日开始执行）：
+
+海通国际（以下简称 “HTI” ）采用相对评级系统来为投资者推荐我们覆盖的公司：优于大市、中性或弱于大市。投资者应仔细阅读 HTI 的评级定义。并且 HTI 发布分析师观点的完整信
+
+息，投资者应仔细阅读全文而非仅看评级。在任何情况下，分析师的评级和研究都不能作为投资建议。投资者的买卖股票的决策应基于各自情况（比如投资者的现有持仓）以及其他因
+
+素。
+
+分析师股票评级
+
+优于大市 ，未来 12-18 个月内预期相对基准指数涨幅在 10% 以上，基准定义如下
+
+中性 ，未来 12-18 个月内预期相对基准指数变化不大，基准定义如下。根据 FINRA/NYSE 的评级分布规则，我们会将中性评级划入持有这一类别。
+
+弱于大市 ，未来 12-18 个月内预期相对基准指数跌幅在 10% 以上，基准定义如下
+
+各地股票基准指数：日本 - TOPIX, 韩国 - KOSPI, 台湾 - TAIEX, 印度 - Nifty100, 美国 - SP500; 其他所有中国概念股 - MSCI China.
+**Ratings Definitions (from 1 Jul 2020):**
+Haitong International uses a relative rating system using Outperform, Neutral, or Underperform for recommending the stocks we cover to investors. Investors should carefully
+read the definitions of all ratings used in Haitong International Research. In addition, since Haitong International Research contains more complete information concerning the
+analyst's views, investors should carefully read Haitong International Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research)
+should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing
+holdings) and other considerations.
+**Analyst Stock Ratings**
+**Outperform:** The stock’s total return over the next 12-18 months is expected to exceed the return of its relevant broad market benchmark, as indicated below.
+**Neutral:** The stock’s total return over the next 12-18 months is expected to be in line with the return of its relevant broad market benchmark, as indicated below. For purposes
+only of FINRA/NYSE ratings distribution rules, our Neutral rating falls into a hold rating category.
+**Underperform:** The stock’s total return over the next 12-18 months is expected to be below the return of its relevant broad market benchmark, as indicated below.
+**Benchmarks for each stock’s listed region are as follows: Japan – TOPIX, Korea – KOSPI, Taiwan – TAIEX, India – Nifty100, US – SP500; for all other China-concept stocks –**
+**MSCI China.**
+
+
+截至 **2025** 年 **3** 月 **31** 日海通国际股票研究评级分布 截至 **2024** 年 **12** 月 **31** 日海通国际股票研究评级分布
+
+优于大市 中性 弱于大市 优于大市 中性 弱于大市
+
+( 持有 ) ( 持有 )
+
+海通国际股票研究覆盖率 92.2% 7.5% 0.3% 91.9% 7.6% 0.4%
+
+投资银行客户 - 3.3% 3.5% 0.0% 2.1% 2.2% 0.0%
+
+- 在每个评级类别里投资银行客户所占的百分比。
+
+
+**7**
+
+
+上述分布中的买入，中性和卖出分别对应我们当前优于大市，中性和落后大市评级。
+
+只有根据 FINRA/NYSE 的评级分布规则，我们才将中性评级划入持有这一类别。请注意在上表中不包含非评级的股票。
+
+此前的评级系统定义（直至 **2020** 年 **6** 月 **30** 日）：
+
+买入，未来 12-18 个月内预期相对基准指数涨幅在 10% 以上，基准定义如下
+
+中性，未来 12-18 个月内预期相对基准指数变化不大，基准定义如下。根据 FINRA/NYSE 的评级分布规则，我们会将中性评级划入持有这一类别。
+
+卖出，未来 12-18 个月内预期相对基准指数跌幅在 10% 以上，基准定义如下
+
+各地股票基准指数：日本 - TOPIX, 韩国 - KOSPI, 台湾 - TAIEX, 印度 - Nifty100; 其他所有中国概念股 - MSCI China.
+
+
+**Haitong International Equity Research Ratings Distribution,** **Haitong International Equity Research Ratings Distribution,**
+**as of March 31, 2025** **as of December 31, 2024**
+**Outperform** **Neutral** **Underperform** **Outperform** **Neutral** **Underperform**
+(hold) (hold)
+HTI Equity Research Coverage 92.2% 7.5% 0.3% 91.9% 7.6% 0.4%
+IB clients* 3.3% 3.5% 0.0% 2.1% 2.2% 0.0%
+*Percentage of investment banking clients in each rating category.
+BUY, Neutral, and SELL in the above distribution correspond to our current ratings of Outperform, Neutral, and Underperform.
+For purposes only of FINRA/NYSE ratings distribution rules, our Neutral rating falls into a hold rating category. Please note that stocks with an NR designation are not included in the table above.
+**Previous rating system definitions (until 30 Jun 2020):**
+**BUY:** The stock’s total return over the next 12-18 months is expected to exceed the return of its relevant broad market benchmark, as indicated below.
+**NEUTRAL:** The stock’s total return over the next 12-18 months is expected to be in line with the return of its relevant broad market benchmark, as indicated below. For purposes
+only of FINRA/NYSE ratings distribution rules, our Neutral rating falls into a hold rating category.
+**SELL:** The stock’s total return over the next 12-18 months is expected to be below the return of its relevant broad market benchmark, as indicated below.
+**Benchmarks for each stock’s listed region are as follows: Japan – TOPIX, Korea – KOSPI, Taiwan – TAIEX, India – Nifty100; for all other China-concept stocks – MSCI China.**
+
+
+海通国际非评级研究： 海通国际发布计量、筛选或短篇报告，并在报告中根据估值和其他指标对股票进行排名，或者基于可能的估值倍数提出建议价格。这种排名或建议价格并非为
+
+了进行股票评级、提出目标价格或进行基本面估值，而仅供参考使用。
+
+
+**Haitong International Non-Rated Research:** Haitong International publishes quantitative, screening or short reports which may rank stocks according to valuation and other metrics or may suggest
+prices based on possible valuation multiples. Such rankings or suggested prices do not purport to be stock ratings or target prices or fundamental values and are for information only.
+
+海通国际 **A** 股覆盖： 海通国际可能会就沪港通及深港通的中国 A 股进行覆盖及评级。国泰海通证券（ 601211.CH ），海通国际于上海的母公司，也会于中国发布中国 A 股的研究报告。
+
+但是，海通国际使用与国泰海通证券不同的评级系统，所以海通国际与国泰海通证券的中国 A 股评级可能有所不同。
+
+
+**Haitong International Coverage of A-Shares:** Haitong International may cover and rate A-Shares that are subject to the Hong Kong Stock Connect scheme with Shanghai and Shenzhen. GUOTAI
+HAITONG SECURITIES (601211 CH), the ultimate parent company of HTISG based in Shanghai, covers and publishes research on these same A-Shares for distribution in mainland China. However, the
+rating system employed by GTHS differs from that used by HTI and as a result there may be a difference in the HTI and GTHS ratings for the same A-share stocks.
+
+海通国际优质 **100 A** 股（ **Q100** ）指数： 海通国际 Q100 指数是一个包括 100 支由国泰海通证券覆盖的优质中国 A 股的计量产品。这些股票是通过基于质量的筛选过程，并结合对国泰海
+
+通证券 A 股团队自下而上的研究。海通国际每季对 Q100 指数成分作出复审。
+
+
+**Haitong International Quality 100 A-share (Q100) Index:** HTI’s Q100 Index is a quant product that consists of 100 of the highest-quality A-shares under coverage at GTHS in Shanghai. These stocks
+are carefully selected through a quality-based screening process in combination with a review of the GTHS A-share team’s bottom-up research. The Q100 constituent companies are reviewed
+quarterly.
+
+
+盟浪义利（ **FIN-ESG** ）数据通免责声明条款： 在使用盟浪义利（ FIN-ESG ）数据之前，请务必仔细阅读本条款并同意本声明：
+
+第一条 义利（ FIN-ESG ）数据系由盟浪可持续数字科技有限责任公司（以下简称 “ 本公司 ” ）基于合法取得的公开信息评估而成，本公司对信息的准确性及完整性不作任何保证。对公司
+
+的评估结果仅供参考，并不构成对任何个人或机构投资建议，也不能作为任何个人或机构购买、出售或持有相关金融产品的依据。本公司不对任何个人或机构投资者因使用本数据表
+
+述的评估结果造成的任何直接或间接损失负责。
+
+
+第二条 盟浪并不因收到此评估数据而将收件人视为客户，收件人使用此数据时应根据自身实际情况作出自我独立判断。本数据所载内容反映的是盟浪在最初发布本数据日期当日的判
+
+断，盟浪有权在不发出通知的情况下更新、修订与发出其他与本数据所载内容不一致或有不同结论的数据。除非另行说明，本数据（如财务业绩数据等）仅代表过往表现，过往的业
+
+绩表现不作为日后回报的预测。
+
+
+第三条 本数据版权归本公司所有，本公司依法保留各项权利。未经本公司事先书面许可授权，任何个人或机构不得将本数据中的评估结果用于任何营利性目的，不得对本数据进行修
+
+改、复制、编译、汇编、再次编辑、改编、删减、缩写、节选、发行、出租、展览、表演、放映、广播、信息网络传播、摄制、增加图标及说明等，否则因此给盟浪或其他第三方造
+
+成损失的，由用户承担相应的赔偿责任，盟浪不承担责任。
+
+
+第四条 如本免责声明未约定，而盟浪网站平台载明的其他协议内容（如《盟浪网站用户注册协议》《盟浪网用户服务（含认证）协议》《盟浪网隐私政策》等）有约定的，则按其他
+
+协议的约定执行；若本免责声明与其他协议约定存在冲突或不一致的，则以本免责声明约定为准。
+
+
+**SusallWave FIN-ESG Data Service Disclaimer** : Please read these terms and conditions below carefully and confirm your agreement and acceptance with these terms before using SusallWave FINESG Data Service.
+
+
+**8**
+
+
+1. FIN-ESG Data is produced by SusallWave Digital Technology Co., Ltd. (In short, SusallWave)’s assessment based on legal publicly accessible information. SusallWave shall not be responsible
+for any accuracy and completeness of the information. The assessment result is for reference only. It is not for any investment advice for any individual or institution and not for basis of purchasing,
+selling or holding any relative financial products. We will not be liable for any direct or indirect loss of any individual or institution as a result of using SusallWave FIN-ESG Data.
+
+
+2. SusallWave do not consider recipients as customers for receiving these data. When using the data, recipients shall make your own independent judgment according to your practical individual
+status. The contents of the data reflect the judgment of us only on the release day. We have right to update and amend the data and release other data that contains inconsistent contents or
+different conclusions without notification. Unless expressly stated, the data (e.g., financial performance data) represents past performance only and the past performance cannot be viewed as the
+prediction of future return.
+
+
+3. The copyright of this data belongs to SusallWave, and we reserve all rights in accordance with the law. Without the prior written permission of our company, none of individual or institution
+can use these data for any profitable purpose. Besides, none of individual or institution can take actions such as amendment, replication, translation, compilation, re-editing, adaption, deletion,
+abbreviation, excerpts, issuance, rent, exhibition, performance, projection, broadcast, information network transmission, shooting, adding icons and instructions. If any loss of SusallWave or any
+third-party is caused by those actions, users shall bear the corresponding compensation liability. SusallWave shall not be responsible for any loss.
+
+
+4. If any term is not contained in this disclaimer but written in other agreements on our website (e.g. _User Registration Protocol of SusallWave Website, User Service (including authentication)_
+_Agreement of SusallWave Website, Privacy Policy of Susallwave Website_ ), it should be executed according to other agreements. If there is any difference between this disclaim and other agreements,
+this disclaimer shall be applied.
+
+
+重要免责声明：
+
+
+非印度证券的研究报告： 本报告由海通国际证券集团有限公司（ “HTISGL” ）的全资附属公司海通国际研究有限公司（ “HTIRL” ）发行，该公司是根据香港证券及期货条例（第 571 章）持
+
+有第 4 类受规管活动（就证券提供意见）的持牌法团。该研究报告在 HTISGL 的全资附属公司 Haitong International (Japan) K.K. （ “HTIJKK” ）的协助下发行， HTIJKK 是由日本关东财务局监
+
+管为投资顾问。
+
+
+印度证券的研究报告： 本报告由从事证券交易、投资银行及证券分析及受 Securities and Exchange Board of India （ “SEBI” ）监管的 Haitong Securities India Private Limited （ “HTSIPL” ）所发
+
+行，包括制作及发布涵盖 BSE Limited （ “BSE” ）和 National Stock Exchange of India Limited （ “NSE” ）上市公司（统称为「印度交易所」）的研究报告。 HTSIPL 于 2016 年 12 月 22 日被收购
+
+并成为海通国际证券集团有限公司（ “HTISG” ）的一部分。
+
+所有研究报告均以海通国际为名作为全球品牌，经许可由海通国际证券股份有限公司及 / 或海通国际证券集团的其他成员在其司法管辖区发布。
+
+本文件所载信息和观点已被编译或源自可靠来源，但 HTIRL 、 HTISCL 或任何其他属于海通国际证券集团有限公司（ “HTISG” ）的成员对其准确性、完整性和正确性不做任何明示或暗示的
+
+声明或保证。本文件中所有观点均截至本报告日期，如有更改，恕不另行通知。本文件仅供参考使用。文件中提及的任何公司或其股票的说明并非意图展示完整的内容，本文件并非 /
+
+不应被解释为对证券买卖的明示或暗示地出价或征价。在某些司法管辖区，本文件中提及的证券可能无法进行买卖。如果投资产品以投资者本国货币以外的币种进行计价，则汇率变化
+
+可能会对投资产生不利影响。过去的表现并不一定代表将来的结果。某些特定交易，包括设计金融衍生工具的，有产生重大风险的可能性，因此并不适合所有的投资者。您还应认识到
+
+本文件中的建议并非为您量身定制。分析师并未考虑到您自身的财务情况，如您的财务状况和风险偏好。因此您必须自行分析并在适用的情况下咨询自己的法律、税收、会计、金融和
+
+其他方面的专业顾问，以期在投资之前评估该项建议是否适合于您。若由于使用本文件所载的材料而产生任何直接或间接的损失， HTISG 及其董事、雇员或代理人对此均不承担任何责
+
+任。
+
+
+除对本文内容承担责任的分析师除外， HTISG 及我们的关联公司、高级管理人员、董事和雇员，均可不时作为主事人就本文件所述的任何证券或衍生品持有长仓或短仓以及进行买卖。
+
+HTISG 的销售员、交易员和其他专业人士均可向 HTISG 的相关客户和公司提供与本文件所述意见相反的口头或书面市场评论意见或交易策略。 HTISG 可做出与本文件所述建议或意见不
+
+一致的投资决策。但 HTIRL 没有义务来确保本文件的收件人了解到该等交易决定、思路或建议。
+
+请访问海通国际网站 www.equities.htisec.com ，查阅更多有关海通国际为预防和避免利益冲突设立的组织和行政安排的内容信息。
+
+非美国分析师披露信息： 本项研究首页上列明的海通国际分析师并未在 FINRA 进行注册或者取得相应的资格，并且不受美国 FINRA 有关与本项研究目标公司进行沟通、公开露面和自营
+
+证券交易的第 2241 条规则之限制。
+
+
+**IMPORTANT DISCLAIMER**
+
+**For research reports on non-Indian securities:** The research report is issued by Haitong International Research Limited (“HTIRL”), a wholly owned subsidiary of Haitong International Securities Group
+Limited (“HTISGL”) and a licensed corporation to carry on Type 4 regulated activity (advising on securities) for the purpose of the Securities and Futures Ordinance (Cap. 571) of Hong Kong, with the
+assistance of Haitong International (Japan) K.K. (“HTIJKK”), a wholly owned subsidiary of HTISGL and which is regulated as an Investment Adviser by the Kanto Finance Bureau of Japan.
+
+**For research reports on Indian securities:** The research report is issued by Haitong Securities India Private Limited (“HSIPL”), an Indian company and a Securities and Exchange Board of India (“SEBI”)
+registered Stock Broker, Merchant Banker and Research Analyst that, inter alia, produces and distributes research reports covering listed entities on the BSE Limited (“BSE”) and the National Stock
+Exchange of India Limited (“NSE”) (collectively referred to as “Indian Exchanges”). HSIPL was acquired and became part of the Haitong International Securities Group of Companies (“HTISG”) on 22
+December 2016.
+
+All the research reports are globally branded under the name Haitong International and approved for distribution by Haitong International Securities Company Limited (“HTISCL”) and/or any other
+members within HTISG in their respective jurisdictions.
+
+The information and opinions contained in this research report have been compiled or arrived at from sources believed to be reliable and in good faith but no representation or warranty, express or
+implied, is made by HTIRL, HTISCL, HSIPL, HTIJKK or any other members within HTISG from which this research report may be received, as to their accuracy, completeness or correctness. All opinions
+expressed herein are as of the date of this research report and are subject to change without notice. This research report is for information purpose only. Descriptions of any companies or their
+securities mentioned herein are not intended to be complete and this research report is not, and should not be construed expressly or impliedly as, an offer to buy or sell securities. The securities
+referred to in this research report may not be eligible for purchase or sale in some jurisdictions. If an investment product is denominated in a currency other than an investor's home currency, a
+change in exchange rates may adversely affect the investment. Past performance is not necessarily indicative of future results. Certain transactions, including those involving derivatives, give rise to
+
+
+**9**
+
+
+substantial risk and are not suitable for all investors. You should also bear in mind that recommendations in this research report are not tailor-made for you. The analyst has not taken into account
+your unique financial circumstances, such as your financial situation and risk appetite. You must, therefore, analyze and should, where applicable, consult your own legal, tax, accounting, financial
+and other professional advisers to evaluate whether the recommendations suits you before investment. Neither HTISG nor any of its directors, employees or agents accepts any liability whatsoever
+for any direct or consequential loss arising from any use of the materials contained in this research report.
+
+HTISG and our affiliates, officers, directors, and employees, excluding the analysts responsible for the content of this document, will from time to time have long or short positions in, act as principal
+in, and buy or sell, the securities or derivatives, if any, referred to in this research report. Sales, traders, and other professionals of HTISG may provide oral or written market commentary or trading
+strategies to the relevant clients and the companies within HTISG that reflect opinions that are contrary to the opinions expressed in this research report. HTISG may make investment decisions that
+are inconsistent with the recommendations or views expressed in this research report. HTI is under no obligation to ensure that such other trading decisions, ideas or recommendations are brought
+to the attention of any recipient of this research report.
+
+Please refer to HTI’s website www.equities.htisec.com for further information on HTI’s organizational and administrative arrangements set up for the prevention and avoidance of conflicts of interest
+with respect to Research.
+
+**Non U.S. Analyst Disclosure:** The HTI analyst(s) listed on the cover of this Research is (are) not registered or qualified as a research analyst with FINRA and are not subject to U.S. FINRA Rule 2241
+restrictions on communications with companies that are the subject of the Research; public appearances; and trading securities by a research analyst.
+
+
+分发和地区通知：
+
+
+除非下文另有规定，否则任何希望讨论本报告或者就本项研究中讨论的任何证券进行任何交易的收件人均应联系其所在国家或地区的海通国际销售人员。
+
+
+香港投资者的通知事项： 海通国际证券股份有限公司 (“HTISCL”) 负责分发该研究报告， HTISCL 是在香港有权实施第 1 类受规管活动（从事证券交易）的持牌公司。该研究报告并不构成
+
+《证券及期货条例》（香港法例第 571 章）（以下简称 “SFO” ）所界定的要约邀请，证券要约或公众要约。本研究报告仅提供给 SFO 所界定的 “ 专业投资者 ” 。本研究报告未经过证券及
+
+期货事务监察委员会的审查。您不应仅根据本研究报告中所载的信息做出投资决定。本研究报告的收件人就研究报告中产生或与之相关的任何事宜请联系 HTISCL 销售人员。
+
+美国投资者的通知事项： 本研究报告由 HTIRL ， HSIPL 或 HTIJKK 编写。 HTIRL ， HSIPL ， HTIJKK 以及任何非 HTISG 美国联营公司，均未在美国注册，因此不受美国关于研究报告编制和研
+
+究分析人员独立性规定的约束。本研究报告提供给依照 1934 年 “ 美国证券交易法 ” 第 15a-6 条规定的豁免注册的「美国主要机构投资者」（ “Major U.S. Institutional Investor” ）和「机构投
+
+资者」（ ”U.S. Institutional Investors” ）。在向美国机构投资者分发研究报告时， Haitong International Securities (USA) Inc. （ “HTI USA” ） 将对报告的内容负责。任何收到本研究报告的美国
+
+投资者，希望根据本研究报告提供的信息进行任何证券或相关金融工具买卖的交易，只能通过 HTI USA 。 HTI USA 位于 1460 Broadway, Suite 11017, New York, NY 10036 USA ，电话 +1 212
+351-6052 。 HTI USA 是在美国于 U.S. Securities and Exchange Commission （ “SEC” ）注册的经纪商，也是 Financial Industry Regulatory Authority, Inc. （ “FINRA” ）的成员。 HTIUSA 不负责编写
+
+本研究报告，也不负责其中包含的分析。在任何情况下，收到本研究报告的任何美国投资者，不得直接与分析师直接联系，也不得通过 HSIPL ， HTIRL 或 HTIJKK 直接进行买卖证券或相
+
+关金融工具的交易。本研究报告中出现的 HSIPL ， HTIRL 或 HTIJKK 分析师没有注册或具备 FINRA 的研究分析师资格，因此可能不受 FINRA 第 2241 条规定的与目标公司的交流，公开露面
+
+和分析师账户持有的交易证券等限制。投资本研究报告中讨论的任何非美国证券或相关金融工具（包括 ADR ）可能存在一定风险。非美国发行的证券可能没有注册，或不受美国法规的
+
+约束。有关非美国证券或相关金融工具的信息可能有限制。外国公司可能不受审计和汇报的标准以及与美国境内生效相符的监管要求。本研究报告中以美元以外的其他货币计价的任何
+
+证券或相关金融工具的投资或收益的价值受汇率波动的影响，可能对该等证券或相关金融工具的价值或收入产生正面或负面影响。美国收件人的所有问询请联系：
+
+Haitong International Securities (USA) Inc.
+1460 Broadway, Suite 11017
+New York, NY 10036
+
+联系人电话： +1 212-351-6052
+
+**DISTRIBUTION AND REGIONAL NOTICES**
+
+Except as otherwise indicated below, any Recipient wishing to discuss this research report or effect any transaction in any security discussed in HTI’s research should contact the Haitong International
+salesperson in their own country or region.
+
+**Notice to Hong Kong investors:** The research report is distributed by Haitong International Securities Company Limited (“HTISCL”), which is a licensed corporation to carry on Type 1 regulated activity
+(dealing in securities) in Hong Kong. This research report does not constitute a solicitation or an offer of securities or an invitation to the public within the meaning of the SFO. This research report
+is only to be circulated to "Professional Investors" as defined in the SFO. This research report has not been reviewed by the Securities and Futures Commission. You should not make investment
+decisions solely on the basis of the information contained in this research report. Recipients of this research report are to contact HTISCL salespersons in respect of any matters arising from, or in
+connection with, the research report.
+
+**Notice to U.S. investors** : As described above, this research report was prepared by HTIRL, HSIPL or HTIJKK. Neither HTIRL, HSIPL, HTIJKK, nor any of the non U.S. HTISG affiliates is registered in the
+United States and, therefore, is not subject to U.S. rules regarding the preparation of research reports and the independence of research analysts. This research report is provided for distribution to
+“major U.S. institutional investors” and “U.S. institutional investors” in reliance on the exemption from registration provided by Rule 15a-6 of the U.S. Securities Exchange Act of 1934, as amended.
+When distributing research reports to “U.S. institutional investors,” HTI USA will accept the responsibilities for the content of the reports. Any U.S. recipient of this research report wishing to effect
+any transaction to buy or sell securities or related financial instruments based on the information provided in this research report should do so only through Haitong International Securities (USA)
+Inc. (“HTI USA”), located at 1460 Broadway, Suite 11017, New York, NY 10036, USA; telephone +1 212-351-6052. HTI USA is a broker-dealer registered in the U.S. with the U.S. Securities and Exchange
+Commission (the “SEC”) and a member of the Financial Industry Regulatory Authority, Inc. (“FINRA”). HTI USA is not responsible for the preparation of this research report nor for the analysis
+contained therein. Under no circumstances should any U.S. recipient of this research report contact the analyst directly or effect any transaction to buy or sell securities or related financial
+instruments directly through HSIPL, HTIRL or HTIJKK. The HSIPL, HTIRL or HTIJKK analyst(s) whose name appears in this research report is not registered or qualified as a research analyst with FINRA
+and, therefore, may not be subject to FINRA Rule 2241 restrictions on communications with a subject company, public appearances and trading securities held by a research analyst account. Investing
+in any non-U.S. securities or related financial instruments (including ADRs) discussed in this research report may present certain risks. The securities of non-U.S. issuers may not be registered with,
+or be subject to U.S. regulations. Information on such non-U.S. securities or related financial instruments may be limited. Foreign companies may not be subject to audit and reporting standards
+and regulatory requirements comparable to those in effect within the U.S. The value of any investment or income from any securities or related financial instruments discussed in this research
+report denominated in a currency other than U.S. dollars is subject to exchange rate fluctuations that may have a positive or adverse effect on the value of or income from such securities or related
+
+
+**10**
+
+
+financial instruments. All inquiries by U.S. recipients should be directed to:
+
+Haitong International Securities (USA) Inc.
+1460 Broadway, Suite 11017
+
+
+New York, NY 10036
+
+
+Attn: Sales Desk at +1 212-351-6052
+
+中华人民共和国的通知事项： 在中华人民共和国（下称 “ 中国 ” ，就本报告目的而言，不包括香港特别行政区、澳门特别行政区和台湾）只有根据适用的中国法律法规而收到该材料的人
+
+员方可使用该材料。并且根据相关法律法规，该材料中的信息并不构成 “ 在中国从事生产、经营活动 ” 。本文件在中国并不构成相关证券的公共发售或认购。无论根据法律规定或其他任
+
+何规定，在取得中国政府所有的批准或许可之前，任何法人或自然人均不得直接或间接地购买本材料中的任何证券或任何实益权益。接收本文件的人员须遵守上述限制性规定。
+
+
+加拿大投资者的通知事项： 在任何情况下该等材料均不得被解释为在任何加拿大的司法管辖区内出售证券的要约或认购证券的要约邀请。本材料中所述证券在加拿大的任何要约或出
+
+售行为均只能在豁免向有关加拿大证券监管机构提交招股说明书的前提下由 Haitong International Securities (USA) Inc. （ “HTI USA” ）予以实施，该公司是一家根据 National Instrument 31
+103 Registration Requirements, Exemptions and Ongoing Registrant Obligations （ “NI 31-103” ）的规定得到「国际交易商豁免」（ “International Dealer Exemption” ）的交易商，位于艾伯塔
+
+省、不列颠哥伦比亚省、安大略省和魁北克省。在加拿大，该等材料在任何情况下均不得被解释为任何证券的招股说明书、发行备忘录、广告或公开发行。加拿大的任何证券委员会或
+
+类似的监管机构均未审查或以任何方式批准该等材料、其中所载的信息或所述证券的优点，任何与此相反的声明即属违法。在收到该等材料时，每个加拿大的收件人均将被视为属于
+
+National Instrument 45-106 Prospectus Exemptions 第 1.1 节或者 Securities Act (Ontario) 第 73.3(1) 节所规定的「认可投资者」（ “Accredited Investor” ），或者在适用情况下 National
+
+Instrument 31-103 第 1.1 节所规定的「许可投资者」（ “Permitted Investor” ）。
+
+新加坡投资者的通知事项： 本研究报告由 Haitong International Securities (Singapore) Pte Ltd （ “HTISSPL” ）于新加坡提供。 HTISSPL 是符合《财务顾问法》 2001 （ “FAA” ）定义的豁免财务
+
+顾问，可（ a ）提供关于证券，集体投资计划的部分，交易所衍生品合约和场外衍生品合约的建议（ b ）发行或公布有关证券、交易所衍生品合约和场外衍生品合约的研究分析或研究报
+
+告。本研究报告仅提供给符合《证券及期货法》 2001 第 4A 条项下规定的机构投资者。对于因本研究报告而产生的或与之相关的任何问题，本研究报告的收件人应通过以下信息与
+
+HTISSPL 联系：
+
+
+Haitong International Securities (Singapore) Pte. Ltd
+
+
+10 Collyer Quay, #19-01 - #19-05 Ocean Financial Centre, Singapore 049315
+
+电话 : (65) 6713 0473
+
+日本投资者的通知事项： 本研究报告由海通国际证券有限公司所发布，旨在分发给从事投资管理的金融服务提供商或注册金融机构（根据日本金融机构和交易法（ “FIEL” ））第 61
+
+（ 1 ）条，第 17-11 （ 1 ）条的执行及相关条款）。
+
+英国及欧盟投资者的通知事项： 本报告由从事投资顾问的 Haitong International Securities Company Limited 所发布，本报告只面向有投资相关经验的专业客户发布。任何投资或与本报告
+
+相关的投资行为只面对此类专业客户。没有投资经验或相关投资经验的客户不得依赖本报告。 Haitong International Securities Company Limited 的分支机构的净长期或短期金融权益可能
+
+超过本研究报告中提及的实体已发行股本总额的 0.5 ％。特别提醒有些英文报告有可能此前已经通过中文或其它语言完成发布。
+
+澳大利亚投资者的通知事项： Haitong International Securities (Singapore) Pte Ltd, Haitong International Securities Company Limited 和 Haitong International Securities (UK) Limited 分别根据澳
+
+大利亚证券和投资委员会（以下简称 “ASIC” ）公司（废除及过度性）文书第 2016/396 号规章在澳大利亚分发本项研究，该等规章免除了根据 2001 年《公司法》在澳大利亚为批发客户
+
+提供金融服务时海通国际需持有澳大利亚金融服务许可的要求。 ASIC 的规章副本可在以下网站获取： www.legislation.gov.au 。海通国际提供的金融服务受外国法律法规规定的管制，该
+
+等法律与在澳大利亚所适用的法律存在差异。
+
+
+印度投资者的通知事项： 本报告由从事证券交易、投资银行及证券分析及受 Securities and Exchange Board of India （ “SEBI” ）监管的 Haitong Securities India Private Limited （ “HTSIPL” ）所
+
+发布，包括制作及发布涵盖 BSE Limited （ “BSE” ）和 National Stock Exchange of India Limited （ “NSE” ）（统称为「印度交易所」）研究报告。
+
+（条款链接： https://www.htisec.com/sites/all/themes/hitong/files/india/Terms%20and%20Conditions%20for%20Research%20Analyst.pdf ）
+
+研究机构名称 : Haitong Securities India Private Limited
+
+SEBI 研究分析师注册号 : INH000002590
+
+地址 : 1203A, Floor 12A, Tower 2A, One World Center
+
+
+841 Senapati Bapat Marg, Elphinstone Road, Mumbai 400 013, India
+
+
+CIN U74140MH2011FTC224070
+
+电话 : +91 22 43156800 传真 :+91 22 24216327
+
+合规和申诉办公室联系人： Prasanna Chandwaskar ；电话 : +91 22 43156803; 电子邮箱 : prasanna.chandwaskar@htisec.com
+
+“ 请注意， SEBI 授予的注册和 NISM 的认证并不保证中介的表现或为投资者提供任何回报保证 ” 。
+
+
+本项研究仅供收件人使用，未经海通国际的书面同意不得予以复制和再次分发。
+
+
+版权所有：海通国际证券集团有限公司 2019 年。保留所有权利。
+
+
+**People’s Republic of China (PRC):** In the PRC, the research report is directed for the sole use of those who receive the research report in accordance with the applicable PRC laws and regulations.
+Further, the information on the research report does not constitute "production and business activities in the PRC" under relevant PRC laws. This research report does not constitute a public offer
+of the security, whether by sale or subscription, in the PRC. Further, no legal or natural persons of the PRC may directly or indirectly purchase any of the security or any beneficial interest therein
+without obtaining all prior PRC government approvals or licenses that are required, whether statutorily or otherwise. Persons who come into possession of this research are required to observe
+
+
+**11**
+
+
+these restrictions.
+
+
+**Notice to Canadian Investors** : Under no circumstances is this research report to be construed as an offer to sell securities or as a solicitation of an offer to buy securities in any jurisdiction of Canada.
+Any offer or sale of the securities described herein in Canada will be made only under an exemption from the requirements to file a prospectus with the relevant Canadian securities regulators and
+only by Haitong International Securities (USA) Inc., a dealer relying on the “international dealer exemption” under National Instrument 31-103 Registration Requirements, Exemptions and Ongoing
+Registrant Obligations (“NI 31-103”) in Alberta, British Columbia, Ontario and Quebec. This research report is not, and under no circumstances should be construed as, a prospectus, an offering
+memorandum, an advertisement or a public offering of any securities in Canada. No securities commission or similar regulatory authority in Canada has reviewed or in any way passed upon this
+research report, the information contained herein or the merits of the securities described herein and any representation to the contrary is an offence. Upon receipt of this research report, each
+Canadian recipient will be deemed to have represented that the investor is an “accredited investor” as such term is defined in section 1.1 of National Instrument 45-106 Prospectus Exemptions or,
+in Ontario, in section 73.3(1) of the Securities Act (Ontario), as applicable, and a “permitted client” as such term is defined in section 1.1 of NI 31-103, respectively.
+
+
+**Notice to Singapore investors:** This research report is provided in Singapore by or through Haitong International Securities (Singapore) Pte Ltd (“HTISSPL”). HTISSPL is an Exempt Financial Adviser
+under the Financial Advisers Act 2001 (“FAA”) to (a) advise on securities, units in a collective investment scheme, exchange-traded derivatives contracts and over-the-counter derivatives contracts
+and (b) issue or promulgate research analyses or research reports on securities, exchange-traded derivatives contracts and over-the-counter derivatives contracts. This research report is only provided
+to institutional investors, within the meaning of Section 4A of the Securities and Futures Act 2001. Recipients of this research report are to contact HTISSPL via the details below in respect of any
+matters arising from, or in connection with, the research report:
+
+Haitong International Securities (Singapore) Pte. Ltd.
+
+10 Collyer Quay, #19-01 - #19-05 Ocean Financial Centre, Singapore 049315
+
+Telephone: (65) 6713 0473
+
+**Notice to Japanese investors:** This research report is distributed by Haitong International Securities Company Limited and intended to be distributed to Financial Services Providers or Registered
+Financial Institutions engaged in investment management (as defined in the Japan Financial Instruments and Exchange Act ("FIEL") Art. 61(1), Order for Enforcement of FIEL Art. 17-11(1), and related
+articles).
+
+
+**Notice to UK and European Union investors:** This research report is distributed by Haitong International Securities Company Limited. This research is directed at persons having professional
+experience in matters relating to investments. Any investment or investment activity to which this research relates is available only to such persons or will be engaged in only with such persons.
+Persons who do not have professional experience in matters relating to investments should not rely on this research. Haitong International Securities Company Limited’s affiliates may have a net
+long or short financial interest in excess of 0.5% of the total issued share capital of the entities mentioned in this research report. Please be aware that any report in English may have been published
+previously in Chinese or another language.
+
+
+**Notice to Australian investors:** The research report is distributed in Australia by Haitong International Securities (Singapore) Pte Ltd, Haitong International Securities Company Limited, and Haitong
+International Securities (UK) Limited in reliance on ASIC Corporations (Repeal and Transitional) Instrument 2016/396, which exempts those HTISG entities from the requirement to hold an Australian
+financial services license under the Corporations Act 2001 in respect of the financial services it provides to wholesale clients in Australia. A copy of the ASIC Class Orders may be obtained at the
+following website, www.legislation.gov.au. Financial services provided by Haitong International Securities (Singapore) Pte Ltd, Haitong International Securities Company Limited, and Haitong
+International Securities (UK) Limited are regulated under foreign laws and regulatory requirements, which are different from the laws applying in Australia.
+
+
+**Notice to Indian investors:** The research report is distributed by Haitong Securities India Private Limited (“HSIPL”), an Indian company and a Securities and Exchange Board of India (“SEBI”) registered
+Stock Broker, Merchant Banker and Research Analyst that, inter alia, produces and distributes research reports covering listed entities on the BSE Limited (“BSE”) and the National Stock Exchange of
+India Limited (“NSE”) (collectively referred to as “Indian Exchanges”).
+
+(Link to the Terms and Conditions document: https://www.htisec.com/sites/all/themes/hitong/files/india/Terms%20and%20Conditions%20for%20Research%20Analyst.pdf)
+
+Name of the entity: Haitong Securities India Private Limited
+
+SEBI Research Analyst Registration Number: INH000002590
+
+Address : 1203A, Floor 12A, Tower 2A, One World Center
+
+841 Senapati Bapat Marg, Elphinstone Road, Mumbai 400 013, India
+
+CIN U74140MH2011FTC224070
+
+Ph: +91 22 43156800 Fax:+91 22 24216327
+
+Details of the Compliance Officer and Grievance Officer : Prasanna Chandwaskar : Ph: +91 22 43156803; Email id: prasanna.chandwaskar@htisec.com
+
+“Please note that Registration granted by SEBI and Certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors”.
+
+
+This research report is intended for the recipients only and may not be reproduced or redistributed without the written consent of an authorized signatory of HTISG.
+
+Copyright: Haitong International Securities Group Limited 2019. All rights reserved.
+
+http://equities.htisec.com/x/legal.html
+
+
+**12**
+
+
+**13**
+
+

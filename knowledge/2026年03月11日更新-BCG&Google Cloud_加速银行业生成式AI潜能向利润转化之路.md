@@ -1,0 +1,1924 @@
+**Boston Consulting Group**
+Boston Consulting Group partners with leaders in business
+and society to tackle their most important challenges and
+capture their greatest opportunities. BCG was the pioneer
+in business strategy when it was founded in 1963. Today,
+we work closely with clients to embrace a transformational
+approach aimed at benefiting all stakeholders—empowering
+organizations to grow, build sustainable competitive
+advantage, and drive positive societal impact.
+
+
+Our diverse, global teams bring deep industry and functional
+expertise and a range of perspectives that question the
+status quo and spark change. BCG delivers solutions
+through leading-edge management consulting, technology
+and design, and corporate and digital ventures. We work
+in a uniquely collaborative model across the firm and
+throughout all levels of the client organization, fueled by
+the goal of helping our clients thrive and enabling them to
+make the world a better place.
+
+
+
+**Google Cloud**
+Google Cloud is the new way to the cloud, providing AI,
+infrastructure, developer, data, security, and collaboration
+tools built for today and tomorrow. Google Cloud offers
+a powerful, optimized AI stack with its own planet-scale
+infrastructure, custom-built chips, generative AI models
+and development platform, as well as AI-powered
+applications, to help organizations transform. Customers
+in more than 200 countries and territories turn to Google
+Cloud as their trusted technology partner
+
+
+
+This report is the outcome of a collaboration between Google Cloud and BCG.
+
+
+## **Contents**
+
+**01** Introduction
+
+
+**02** The true opportunity of
+(Gen)AI for Banks
+
+
+**03** What is driving the gap
+between potential and
+performance?
+
+
+**04** Rethinking the path to get
+ahead with (Gen)AI
+
+
+**05** GenAI & Agentic AI
+Technology for Banking
+
+
+**06** Call to action: The Scaling
+AI Playbook
+
+
+## **Introduction**
+
+**Artificial Intelligence (AI) has reshaped financial**
+**services** over the past two decades. Today, the pace of
+change is accelerating once again.
+
+
+Predictive AI helped financial institutions defend against
+digital disruptors and streamline their operations. The
+arrival of generative AI (GenAI) amplified both opportunity
+and risk—raising new questions about value creation,
+trust, and responsible adoption.
+
+
+Agentic AI stretches the frontier further. By enabling
+systems to act autonomously, agentic AI moves beyond
+analysis into action, turning insight into execution.
+
+
+Leaders across the industry recognize that AI will drive a
+fundamental shift in how financial institutions operate,
+compete, and create value. In Boston Consulting Group’s
+(BCG) 2025 global survey of 1,250 executives, 75% ranked
+AI and GenAI among their top three strategic priorities for
+the year ahead. Within financial institutions, 65% see
+substantial value potential in GenAI. Companies are
+doubling down on their GenAI investments, which are
+expected to increase by 60% in the next 3 years.
+
+
+
+Despite this remarkable pace and promise, we find
+significant gaps still remaining in turning promise into
+realized value. While AI is transforming businesses faster
+than ever, only 51% of financial institutions report having
+realized any value thus far from their AI initiatives.
+
+
+Of this 51%, just 3% of financial institutions have achieved
+value from AI at scale. These ‘future-built’ leaders have
+developed the right foundations—robust data architecture,
+governance, and talent—and are now pulling ahead of
+their peers.
+
+
+A further 48% of banks are beginning to see early results,
+but have yet to scale their initiatives or demonstrate
+consistent outcomes. Meanwhile, the remaining 49% still
+struggle to capture tangible returns, reporting minimal
+revenue gains or cost efficiencies despite significant
+spending.
+
+
+In the last three years, future-built financial institutions
+have grown faster and delivered stronger shareholder
+returns compared to ‘laggards’—the bottom 49%.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **4**
+
+
+**EXHIBIT 1**
+
+The AI value gap for Financial Institutions
+
+
+
+Future-built FIs are
+growing faster, delivering
+greater returns
+
+
+
+Globally, 3% of financial
+institutions are achieving
+AI value at scale
+
+
+
+In APAC, financial
+institutions are unlocking
+value, but not yet at scale
+
+
+
+
+
+Global FIs [2]
+
+
+
+
+
+**Faster revenue**
+**growth** **[3]**
+
+
+**Total shareholder**
+**returns** **[3]**
+
+
+### **3.5x** **2.2x**
+
+
+
+
+
+
+
+APAC FIs [2]
+
+
+
+**Source:** BGG Build for the Future 2025 Global Study (n=147 for global financial institutions, n=38 for APAC financial institutions).
+1Future-built: Build for the Future Maturity Score 75-100, Scaling: 50-74, Laggards: 0-49.
+2Financial Institutions.
+33-year revenue growth, 3-year total shareholder return, comparing Future-built vs Laggards among global financial institutions
+
+
+
+These institutions have achieved 3.5x faster revenue
+growth and delivered 2.2x higher total shareholder returns
+over the last three years. This performance gap is further
+exacerbated by GenAI and agentic AI which are
+transforming how financial institutions create and capture
+value.
+
+
+GenAI is expanding the scope of what financial institutions
+can achieve. By leveraging large language models (LLM)
+and multimodal architectures, banks can now generate
+content with prompts, extract insights from unstructured
+data, and create conversational interfaces that transform
+customer interactions.
+
+
+Leading global banking institutions have already deployed
+GenAI for personalized product recommendations in
+private banking and AI-powered customer assistance in
+retail banking, enhancing productivity and elevating
+customer experiences.
+
+
+Agentic AI pushes this progression further by acting
+autonomously and proactively. AI agents can help banks
+observe, plan, and execute actions through application
+programming interfaces (APIs) that are continuously
+learning and optimizing outputs based on feedback in real
+time. Today, AI agents make up 17% of the total AI value in
+banking—with its share expected to almost double to
+reach 29% by 2028.
+
+
+
+Leading financial institutions are already seeing returns.
+On average, these banks have realized a 2.4% increase in
+revenue and 4.2% reduction in cost—nearly double that
+achieved by laggards.
+
+
+Leaders are reinvesting these returns in new AI capabilities.
+These leaders are spending more on IT as a share of
+revenue, and allocating a greater share of the IT budget to
+AI. By 2028, future-built banks expect a 9.3% revenue
+increase and 12.3% cost reduction, both significantly higher
+than the projections of less AI mature institutions.
+
+
+Financial institutions that act early will strengthen their
+position within this virtuous cycle, while those that hesitate
+risk falling further behind as the value gap widens.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **5**
+
+
+**EXHIBIT 2**
+
+Leaders experience a virtuous cycle of AI value creation by
+reinvesting funds
+
+
+##### **2024**
+
+
+
+
+
+
+
+
+
+
+
+**12.3%**
+**12.0%**
+
+
+
+
+|Col1|Col2|
+|---|---|
+|**1.1x**|**1.1x**|
+
+
+
+
+|Col1|Col2|
+|---|---|
+|**1.1x**|**1.1x**|
+
+
+|Col1|1.8x|
+|---|---|
+|**4.2**<br>||
+
+
+|Col1|Col2|
+|---|---|
+|**1.9x**<br>**2.4**|**1.9x**|
+
+
+
+
+
+
+
+AI Laggards
+
+
+
+AI Leaders
+
+
+
+**Source:** BCG Build for the Future 2025 Global Study (n=147 Financial Institutions).
+1What % of revenue growth did you achieve/project in 2024, 2025 & 2028 (in % of annual revenue) through AI efficiency gains?.
+2What % of cost reduction did you achieve/project in 2024, 2025 & 2028 (in % of total op. expenses) through AI efficiency gains?.
+3What is your company's approximate IT budget (% annual revenue) in 2025.
+4What % of your company's overall IT budget in 2025 is dedicated to AI?
+
+
+
+
+
+
+
+
+
+
+## **The true opportunity of (Gen)AI for** **Banks**
+
+
+
+AI has long since moved from experimentation to
+execution, and we are already seeing its tangible impact in
+‘future-built’ banks. In 2025, leading financial institutions
+in APAC expect to realize an average 5.8% revenue
+increase and 8.6% cost reduction attributable to AI.
+
+
+**EXHIBIT 3**
+
+
+
+AI-driven initiatives have helped these banks achieve
+higher revenue and greater cost savings, with more than
+70% of that value coming from applications in customer
+relationships, customer service, R&D/innovation and IT
+operations.
+
+
+
+In Banking, majority of AI value will come from customer
+relationships, customer service, innovation, and IT
+
+
+Share of AI value
+
+
+**Customer** **Customer** **R&D/** **Other**
+
+**Other core** **IT**
+
+**relationships2** **service** **Innovation** **support**
+
+
+
+
+
+**Source:** BGG Build for the Future 2025 Global Study (n=59 for global Banking).
+1Please distribute 100% across the following functions regarding value (value comprises topline growth and cost reduction).
+2Includes customer journey, sales, digital marketing, and pricing.
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **7**
+
+
+GenAI provides financial institutions with new ways to
+personalize experiences, automate workflows, and
+enhance decision-making. By focusing on high-value use
+cases, banks stand to benefit from stronger operational
+efficiency and greater customer satisfaction, with benefits
+already seen across multiple industries:
+
+
+- **Private banking.** GenAI is driving personalization and
+improving productivity by up to 25% in private banking.
+GenAI has the capability to synthesize data such as
+client histories, product information, and the latest
+industry research. This empowers relationship managers
+to accelerate the creation of personalized outreach
+materials and offers. Automated report generation and
+AI copilots further streamline follow-up communication
+and documentation, improving client relationships
+through deeper engagement and freeing capacity to
+pursue new leads.
+
+
+- **Customer service.** AI is reducing call handling
+time by 15%-20% and lowering operational costs by
+approximately 30% in customer service. AI-augmented
+triage and self-service recommendations have reduced
+
+
+**EXHIBIT 4**
+
+
+
+the volume of queries routed to human representatives.
+Customer service agents can now prioritize those with
+more complex questions or needs. Each case is enriched
+with AI-generated summaries and suggested solutions,
+allowing for faster resolution and improved customer
+experience.
+
+
+- **Marketing.** GenAI is accelerating content creation,
+unlocking 25%-35% process efficiencies in marketing.
+GenAI tools are supporting marketers in the production
+of ad copy, emails, and social media content, speeding
+up processes without compromising on quality. With
+AI-driven analytics, marketers can conduct more precise
+segmentation and targeting to deliver better campaign
+results and more relevant messaging to customers.
+
+
+These use cases are just the tip of the iceberg, capturing
+only a fraction of what is possible with AI. Even future-built
+institutions have not fully tapped into the potential of AI.
+As GenAI and agentic AI capabilities mature, applications
+will extend far beyond just automation and content
+creation—pushing banks to rethink how they approach
+their operations and sustain value.
+
+
+
+Most banks have yet to unlock potential from full range of use cases
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adoption score1 1-2.3 2.3-2.8 2.8-3 3-3.3 3.3-5
+
+
+**Source:** BGG Build for the Future 2025 Global Study (n~=100 for Financial Institutions).
+1"What is your current level of adoption of AI in this workflow?" Answers range from 1-Not adopted to 5-Fully deployed
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **8**
+
+
+**AI is changing the rules of**
+**competition**
+
+
+AI offers remarkable opportunities, but it also presents a
+double-edged sword in a changing competitive landscape.
+On one hand, it brings significant opportunities for growth
+and efficiency. But on the other, it challenges traditional
+banking models and introduces new, rapidly evolving
+potential for disruption. GenAI and agentic AI tools are
+introducing new forms of competition that banks can no
+longer afford to ignore.
+
+
+Historically, banks have benefited from customers sticking
+to one financial provider out of convenience and familiarity.
+This however is no longer the case, as AI-powered agents
+make it easier for customers to explore and compare
+offerings from a variety of banks.
+
+
+Banks have also relied on complex rate structures, fees,
+and lending terms that created pricing power through
+opacity. But AI-driven transparency is dismantling this
+
+
+
+advantage, helping customers make more informed
+decisions and pushing banks to compete on pricing and
+intangible value. Digital platforms are also deploying AI to
+deliver personalized services that draw customers away
+from traditional banking channels.
+
+
+With all these challenges at play, banks are now in a race
+to embed AI into their operations. Those who lag in this
+race risk losing relevance in a marketplace that is
+increasingly driven by intelligent systems.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **9**
+
+
+## **What is driving the gap between** **potential and performance?**
+
+
+
+Getting ahead of the curve will depend on how well banks
+can identify their blind spots, take those insights, and use
+them to inform AI-driven strategies. Our research points to
+
+
+**EXHIBIT 5**
+
+
+
+five underlying gaps that explain why many financial
+institutions struggle to turn intent into outcomes.
+
+
+
+5 key drivers of the gap between Future-built/leaders and laggards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1"How would you describe your C-suite's mindset and ownership around Agentic AI”.
+2"Which of the following statements best describes the focus of AI adoption in your company?" BCG Build for the Future 2025 Global Study (n=45 Financial
+Institutions for this question).
+3BCG Future of Finance 2025 Global Study
+4"Has your company adopted platform thinking for AI deployment?" BCG Build for the Future 2025 Global Study (n=64 Financial Institutions for this question)
+5BCG AI in Financial Institutions 2025 Global Study
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **10**
+
+
+**Insufficient C-Level sponsorship**
+**and weak governance**
+
+
+Despite the rising potential of AI, business leaders are
+hesitant to engage in AI-driven activities and initiatives,
+particularly those centered around GenAI. Across
+Indonesia’s financial sector, relatively few leaders have
+taken on an active role in driving AI adoption across their
+institutions. Laggards are 9 times less likely to report that
+the C-suite are deeply engaged in AI programs, compared
+against future-built organizations.
+
+
+Many C-level executives have yet to develop the technical
+knowledge needed to fully grasp how AI capabilities can
+deliver meaningful impact on their operations. This
+knowledge gap limits their ability to champion AI initiatives
+and investments or shape governance frameworks.
+
+
+Even among the more tech-savvy leaders, there is a
+growing concern over GenAI’s current limitations and
+ethical risks. Looking at LLMs as an example, these models
+can hallucinate and produce inaccurate or non-factual
+content when not properly controlled. LLMs also still
+struggle to process real-time data feeds which is a critical
+capability in some financial applications.
+
+
+As a result, many banks tend to tread cautiously when it
+comes to investing in AI systems and tools. Indonesian
+banks are adopting a ‘wait-and-see’ approach, positioning
+themselves as ‘followers’ rather than leaders. Instead of
+investing heavily in technology they are unsure about,
+these banks are choosing to wait for tangible proof of value
+before committing to investments in GenAI.
+
+
+BCG’s AI Radar 2025 survey found that while one in three
+companies in the Asia Pacific (APAC) region plan to invest
+more than USD25 million in AI, and three in four
+companies plan to increase tech investments. However,
+Indonesian banks remain cautious. This hesitation is
+costing them both time and value, as competitors are
+scaling up aggressively.
+
+
+For many Indonesian banks, AI is not yet a leadership
+priority. C-suite level attention remains divided across
+competing priorities such as maintaining efficiency in a
+dynamic macro-environment, ensuring compliance in an
+evolving regulatory landscape, and driving digitization and
+tech resilience. Because of this, AI initiatives are often
+confined to innovation labs or stay within the purview of
+chief information officers (CIOs) and chief data officers
+(CDOs)—limiting cross-functional visibility.
+
+
+
+This lack of ownership and governance has tangible
+consequences for financial institutions:
+
+
+- **No clear success metrics.** Nearly 60% of financial
+institutions have yet to define key performance
+indicators (KPIs) or financial metrics to track AI
+outcomes. Without measurable goals, banks will struggle
+to see the return on investment (ROI) that AI can deliver.
+
+
+- **Weak governance structures.** Many banks have not
+established formal governance models for AI or have
+folded them into existing IT and digital governance
+policies, often without C-level ownership.
+
+
+- **Limited business-tech collaboration and funding.**
+The absence of C-level ownership creates fragmentation
+in collaboration between business and tech teams,
+putting AI adoption at the bottom of the business
+priority list. One banking leader we interviewed
+shared that “[the tech team] needs to collaborate with
+businesses to define use cases clearly [but] business unit
+leaders focus only on their respective domains.” Without
+a unified approach to AI from the top, AI champions
+struggle to secure funding for projects. Many Indonesian
+banks still do not have dedicated funding to mobilize
+AI projects beyond the pilot stage with teams finding it
+difficult as they have to compete with business units or
+functional teams for resources.
+
+
+While being cautious is understandable, leaders who are
+overly cautious are creating barriers to progress. Until AI
+becomes a business priority or C-level executives start
+taking ownership of AI initiatives, Indonesian banks will not
+realize the potential value of AI.
+
+
+**The AI imagination gap**
+
+
+The power that AI and GenAI have to disrupt banking has
+not gone unnoticed. Nearly 90% of business leaders expect
+the majority of AI’s value to stem from step-change
+improvements. Despite this, 44% of AI funding continues to
+focus on individual productivity gains rather than companywide efficiencies.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **11**
+
+
+**EXHIBIT 6**
+
+Large share of AI investments remain focused on individual
+productivity, not transformative initiatives
+
+
+**Share of AI investments (%)**
+
+
+
+
+
+**Invent**
+
+
+initiatives focused on
+individual productivity
+
+
+**Reshape**
+
+
+critical functions by improving
+process-level productivity
+
+
+
+**Deploy**
+
+
+individual productivity
+
+
+
+
+
+**Source:** BCG Analysis
+
+
+Many AI-driven initiatives are designed to tackle task-level
+issues, as opposed to reinventing key functions or creating
+entirely new ways of working that support company-level
+innovation.
+
+
+This is largely driven by the fact that individual productivity
+gains have proven their worth across various operational
+areas. In fact, many banks are now shifting their AI focus to
+isolated applications such as:
+
+
+- **Knowledge synthesis.** Banks are now automating
+document reviews and analysis such as the examination
+of commercial loan agreements.
+
+
+- **Creative tasks.** GenAI tools support marketing and
+communications professionals in content generation.
+
+
+- **Workflow automation.** Low-code or no-code
+automation can be applied to repetitive processes,
+streamlining workflows.
+
+
+GenAI is growing beyond these niche applications,
+expanding into core financial workflows particularly in
+areas of customer engagement and service. Banks are now
+using AI to power autonomous chat agents capable of
+engaging customers beyond scripted dialogues. AI tools are
+also being used to approve loans in real time and automate
+document processing.
+
+
+In practice, this allows banks to offer the same level of
+personalized service that customers would get from
+human-agent interactions without the need to add on to
+
+
+
+their workforce. However, Indonesian banks continue to
+struggle when it comes to articulating and quantifying the
+value of GenAI.
+
+
+“We struggled to quantify improvement in customer
+satisfaction of the new [GenAI-enabled] customer service,
+
+[but] leaders need to see clear value before we can build or
+pilot projects,” said a respondent from one Indonesian
+bank.
+
+
+Without understanding the full picture of how GenAI can
+transform enterprise-level operations, banks might
+potentially be underinvesting in initiatives that could
+strengthen their competitive position among future-built
+institutions.
+
+
+**Weak data foundations**
+
+
+Developing and deploying AI models at scale requires a
+strong foundation with high-quality, accessible data. Most
+AI models rely on structured and complete datasets that
+can easily be consumed by systems to process inputs and
+outputs.
+
+
+When compared to other industries, financial institutions
+often have richer data assets and content that are
+supported by organized data sourcing, publishing, and
+monitoring processes. Yet, while AI models continue to
+grow in sophistication, slow, incomplete, or fragmented
+data is still holding banks back.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **12**
+
+
+The lack of structured data, among other things, continues
+to limit scalability:
+
+
+- **Technical debt.** Unlocking AI’s full potential requires
+modernizing legacy IT systems and addressing technical
+debt. Failing to do so often results in stagnant AI
+initiatives that are stuck at the proof-of-concept stage.
+
+
+- **Data integration.** Banks still lack seamless
+data integration between cloud and on-premise
+environments, limiting real-time visibility across
+workflows. This means that data flows are restricted,
+creating bottlenecks for adaptive and autonomous AI
+models.
+
+
+**EXHIBIT 7**
+
+
+
+
+- **Weak data governance and ownership.** Only 9% of
+financial institutions have centralized data policies and
+embedded end-to-end data governance. A large majority
+of banks operate with just basic governance frameworks
+and limited enforcement, resulting in inconsistent data
+management across the organization.
+
+
+Data management continues to be one of the biggest
+challenges banks face, especially when it comes to data
+processing. Only 20% of banks have implemented robust
+quality frameworks for both structured and unstructured
+data, while just 10% of banks maintain fully documented
+datasets that can be easily accessed by authorized
+personnel.
+
+
+
+Data quality and traceability challenges for financial institutions
+
+###### **Quality Traceability**
+
+
+
+
+
+of financial institutions
+implement robust quality
+frameworks for structured
+and unstructured data
+
+
+
+
+
+
+
+
+
+of financial institutions have
+clearly and fully documented
+data that can be leveraged by
+entitled users
+
+
+
+**80%**
+
+
+
+**90%**
+
+
+
+Global FIs [3] Global FIs [3]
+
+
+**Source:** BGG Build for the Future 2025 Global Study (n=147 for global financial institutions, n=38 for APAC financial institutions)
+1Financial Institutions
+
+
+
+In the short term, having incomplete datasets and
+inconsistent data quality will lead to delays in AI
+deployments. But if this continues to go unaddressed,
+banks risk exposing themselves to compliance risks and
+weakening the foundation of their digital transformation.
+" _[We] struggle to implement business intelligence/analytics due_
+_to data gaps … let alone AI,_ " noted one Indonesian bank
+leader.
+
+
+**Fragmented technology stack**
+
+
+Before even considering deploying AI, banks must assess
+whether their current systems are up for the task. Legacy
+and fragmented tech stacks constrain a bank’s ability to
+experiment and scale AI capabilities effectively. As such,
+most banks are forced to build AI solutions from scratch,
+
+
+
+making AI deployment slow, costly, and difficult to sustain.
+
+
+This is also largely due to the fact that many banks operate
+in technological patchwork systems where multiple
+generations of software and infrastructure are integrated
+into one ecosystem. While this may work on an operational
+level, it cannot accommodate new AI components without
+adding further complexity and mounting technical debt.
+
+
+Escalating IT costs further discourage banks from updating
+their tech stack, with costs expected to rise at a 9%
+compound annual growth rate (CAGR)—well above the
+projected inflation rate. APAC banks already spend 11% of
+revenue on IT. What’s more, our analysis shows that
+globally, 60% of this spend likely goes towards ensuring
+bank operations run smoothly—leaving limited capacity for
+innovation or investments in AI.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **13**
+
+
+Traditionally, banks have viewed IT infrastructure as a
+high-priced cost center that is necessary for operations but
+does not generate revenue. This approach has led to
+inefficient resource utilization and limited accountability as
+expenses are shared across departments without clear
+attribution. The lack of focus on IT infrastructure as a
+source of competitive advantage stifles its role in driving
+company-wide transformation.
+
+
+Indonesian banks are also slow to adopting cloud-based
+infrastructure. The majority still heavily rely on on-premise
+infrastructure and are hesitant to switch to the cloud
+because of several key concerns.
+
+
+- **Data sovereignty obligations.** Banks are required
+to maintain personally identifiable information (PII)
+and other sensitive data on-premise. As a result, many
+banks adopt a conservative risk posture that limits
+cloud migration.Talent limitations. Banks still lack
+seamless data integration between cloud and onpremise environments, limiting real-time visibility across
+workflows. This means that data flows are restricted,
+creating bottlenecks for adaptive and autonomous AI
+models.
+
+
+- **Talent limitations.** A limited talent pool makes it
+difficult for banks to properly assess cloud-related risks
+and propose effective mitigation strategies that comply
+with AI and data protection regulations.
+
+
+- **Regulatory assurance.** Inadequate understanding of
+regulatory requirements and the technology products
+offered make it challenging for Banks to assess and
+certify regulatory compliance with Indonesia's Personal
+Data Protection (PDP), sector related AI guidelines and
+laws.
+
+
+- **Budget constraints.** State-owned enterprises (SOEs)
+often prioritize operating-expense (OPEX) efficiency over
+total-cost-of-ownership (TCO) optimization. This makes
+the business case for cloud adoption less compelling as
+cloud costs disproportionately impact OPEX and capital
+expenditure (CAPEX).
+
+
+Cloud adoption is critical for financial institutions who want
+to deploy AI at scale. Modern cloud platforms provide
+banks with:
+
+
+- **Specialized computing hardware for AI.** Cloud
+infrastructure gives banks access to hardware that can
+handle AI workloads with speed, scale, and elasticity to
+scale up or down for cost efficiency.
+
+
+- **Managed services, APIs, and off-the-shelf AI**
+**solutions.** Cloud providers help banks accelerate
+AI adoption by offering solutions that are ready for
+implementation. This reduces the need for in-house
+development and engineering of AI solutions.
+
+
+- **Continuous access to the AI and GenAI models.**
+Cloud-based systems offer frequent updates and
+
+
+
+upgrades that would be costly and time-intensive to
+replicate on on-premise infrastructure.
+
+
+- **Advanced security and compliance frameworks.**
+AI solutions that run on the cloud are backed by strong
+security solutions built on large-scale global investments
+and expertise. These security solutions provide
+proactive threat monitoring and ensure alignment with
+international and local regulations.
+
+
+- **Banking-specific expertise and solutions.** Cloud
+providers consolidate global best practices and de-risk
+AI implementation by offering banks industry-specific
+solutions for anti-money laundering (AML), know-yourcustomer (KYC), and reference architectures.
+
+
+**Scarce AI-ready talent**
+
+
+AI is in demand, and so too is the talent that underpins
+these new technologies. Specialized skills such as data
+science, data engineering, software engineering, solution
+architecture, and business analytics, are needed to build AI
+models and solutions that are capable of delivering impact.
+
+
+Globally, two-thirds of financial institutions reported
+difficulties in hiring qualified AI professionals. Competition
+for AI talent remains fierce with job openings for AI-related
+roles at an all-time high, despite softening in the global
+labor market. Indonesian banks face similar challenges as
+they struggle to find experienced AI practitioners,
+particularly those who are familiar with regulated financial
+environments. One respondent from an Indonesian bank
+highlighted “There are [few] data scientists here [in
+Indonesia], or at least there are no talents ready for banks
+to consume.”
+
+
+In an environment with scarce AI-ready talent, banks
+should pivot to building an AI-ready workforce. Decisionmakers, oversight teams, and everyday users must have
+the skills to assess, challenge, and apply AI outputs
+responsibly, especially as banks pursue more complex and
+transformative use cases.
+
+
+However, many frontline and control teams still struggle to
+interpret AI-driven recommendations, let alone justify
+them to regulators. This undermines confidence in AI
+decision-making and gives bank even more reason to scale
+back on adoption. Therefore, banks should look to
+developing an AI-ready workforce with people and
+processes that are prepared for AI-driven changes in
+banking.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **14**
+
+
+## **Rethinking the path to get ahead** **with (Gen)AI**
+
+
+
+Future-built banks that have seen success in their AI
+implementation take on distinctly different approaches to
+the new wave of innovation. Our research shows that banks
+winning in the AI era are not just investing in technology,
+but are also changing how they organize, lead, and execute
+their AI agenda.
+
+
+**Lead from the top, backed by AI-**
+**ready governance**
+
+
+Our findings indicate that leadership sponsorship is one of
+the most significant differentiators between future-built
+banks and laggards. Banks who have yet to turn a profit
+from their AI initiatives see only 11% of C-suite
+engagement, whereas C-suites are deeply engaged in AI
+programs across nearly 100% of future-built banks.
+
+
+Banks that bring AI programs to the board and CEO level
+and demonstrate their value are 3.5 times more likely to
+
+
+
+succeed, as opposed to those with an initiative-level
+approach to AI. Having senior-level leadership supports
+future-built banks in their efforts to resolve systematic
+challenges and provide organization-wide clarity on what is
+working and where to focus. With visible AI advocacy,
+financial institutions can drive adoption and deliver
+meaningful impact across departments.
+
+
+Effective AI leadership and governance frameworks
+typically share similar characteristics. For starters, most of
+these frameworks have a centralized prioritization of AI
+efforts. Instead of spreading resources thinly across
+different initiatives, future-built banks focus on a selected
+number of high-impact opportunities as a starting point.
+This helps maintain focus on delivering strategic returns
+before diving deeper into other AI solutions.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **15**
+
+
+Secondly, leading institutions establish cross-functional
+ownership and collaboration by joining business and
+technology teams. With joint ownership of AI initiatives,
+teams have shared accountability, dedicated budgets, and
+clearly defined outcomes from use cases. Future-built
+companies are 1.5 times more likely to have business-tech
+shared ownership of AI initiatives.
+
+
+Lastly, future-built banks practice outcome-focused
+tracking and reporting. These banks consistently measure
+ROI rather than counting pilots, and are four times more
+likely to track and report results from AI initiatives. Keeping
+goals measurable is key to ensuring AI programs stay on
+track and deliver on their ambitions.
+
+
+For Indonesian banks, achieving similar outcomes requires
+a mindset shift. Most business leaders today scrutinize
+proposed AI initiatives through the lens of technical
+performance, potential value, cost, and feasibility long
+before the technology has had an opportunity to
+demonstrate its impact. Leaders must move away from this
+traditional way of evaluating a new initiative if they want to
+succeed in the age of AI.
+
+
+**EXHIBIT 8**
+
+
+
+To accelerate value creation, business leaders must step
+out of their examiner roles and step into the role of cocreator. This means working alongside digital and tech
+teams to explore new use cases, prioritize opportunities
+based on potential business impact, and jointly execute
+pilots to drive adoption. By working hand-in-hand with tech
+teams, business leaders can champion AI and effortlessly
+scale solutions across institutions.
+
+
+**Transform agendas to deploy,**
+**reshape, and invent AI**
+
+
+When it comes to developing new AI initiatives, future-built
+banks think beyond just automation and individual
+productivity gains. These banks focus on how they can
+reshape existing workflows and end-to-end processes with
+AI-first workflows and business models. This approach is
+anchored in three complementary plays to implement AI.
+
+
+
+3 complementary strategic plays to maximize the value potential
+of AI
+
+
+
+
+
+
+
+
+
+
+
+
+
+Leading financial institutions are focusing on ‘reshape’ and
+‘invent’ AI strategies with 68% and 23% of AI leaders
+prioritizing these plays for AI adoption, as opposed to just
+9% who are primarily focused on ‘deploy’.
+
+
+Moving from an incremental to a transformative AI agenda
+will require a clear articulation of AI’s business value.
+Indonesian banks who want to achieve this should draw
+inspiration from global AI use cases—as outlined in
+chapter two—and build on that with local pilots or smallscale experiments to prove value.
+
+
+
+
+- **Deploy.** Banks can drive company-wide productivity
+gains with off-the-shelf GenAI tools that are readily
+available to streamline everyday operations, while
+reducing the need for additional hires and minimizing
+operational friction.
+
+
+- **Reshape.** Workflows should be redesigned with AI as
+the anchor. By doing so, banks can bolster their impact
+and create multi-functional departments.
+
+
+- **Invent.** Banks can develop new products, business
+models, and services built on AI capabilities from the
+ground up to deliver more personalized and innovative
+solutions.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **16**
+
+
+**Set transformative agenda to**
+**reshape and invent, with ruthless**
+**prioritization**
+
+
+For many banks, fragmented data environments and
+unclear accountability are the biggest barriers to AI
+deployment. Only 10% of banks have fully documented
+data. If financial institutions want to truly move the needle
+to become future-built organizations, they must strive to
+produce high-quality, accessible, and ready-to-consume
+data. Building this data foundation means addressing data
+gaps with stronger governance, modern infrastructure, and
+a parallel approach to data and AI development.
+
+
+Banks must clearly define ownership and accountability of
+data assets and track performance through robust KPIs
+when establishing effective data governance. For example,
+customer-related data ownership should lie with customerfacing business unit leaders. Targeted initiatives to improve
+data quality should follow suit, ensuring that ownership
+and accountability are in place before corrective measures
+are taken.
+
+
+To build AI-ready systems, banks must consolidate and
+standardize data across systems, supported by
+mechanisms for efficient discovery, access, scalable reuse,
+and version control. Reinforcing these data foundations
+requires addressing technical debt from legacy systems
+and IT shortcuts, an intensive but necessary effort to scale
+AI sustainably.
+
+
+As such, Indonesian banks cannot afford to hit pause on
+their AI programs while fixing data issues—both must
+progress in parallel. By developing AI solutions and data
+foundations simultaneously, financial institutions can
+create a self-reinforcing cycle of value.
+
+
+In action, banks will benefit from immediate business
+impact from AI solutions which strengthen justifications for
+ongoing financial investments. Improved data foundations,
+in turn, provide the reliability, scalability, and governance
+needed to deploy those AI solutions on an enterprise-level.
+
+
+This parallel and incremental approach to addressing data
+gaps hinges on effective prioritization with a focus on
+high-value data that aligns with a bank’s broader AI and
+digital roadmap. By working on solidifying data foundations
+and developing AI solutions at the same time, banks can
+build both the technical and organizational readiness
+needed to become future-built.
+
+
+
+**Build AI-ready data foundations**
+**and governance incrementally,**
+**along with AI solution**
+**development**
+
+
+A flexible, modular, and interoperable tech stack is what
+sets future-built banks apart from laggards. Without it,
+banks are looking at a mountain of technical debt just to
+develop and deploy AI at scale. This is especially true with
+the adoption of GenAI and agentic AI in banking, where
+seamless integration makes or breaks successful
+implementation.
+
+
+Both GenAI and agentic AI demand effective orchestration
+which connects AI models to relevant data assets and links
+them to prompt repositories. In Indonesia, this is further
+compounded by the specialized nature of banking
+functions and Bahasa-language inputs and outputs.
+
+
+These needs call for more sophisticated solutions, such as
+retrieval-augmented generation (RAG) and domain-specific
+small language models (SLMs), that can process localised
+data and understand cultural nuances. In this environment,
+having a flexible and modular tech stack becomes
+essential to build and scale AI capabilities.
+
+
+In addition to this, future-built banks operate within a
+hybrid infrastructure that blends cloud and on-premise
+environments. In Indonesia, certain sensitive data and
+processes have to remain on-premise for regulatory and
+compliance reasons. But, this does not mean that banks
+cannot leverage cloud infrastructure to accelerate AI value
+creation.
+
+
+In our interviews with Indonesian banks, they highlighted
+how cloud managed services and API access and controls
+significantly reduce build complexity and efforts. This
+means that teams can focus on solution design rather than
+infrastructure management.
+
+
+Additionally, banks can access specialized AI hardware
+through the cloud with scale and speed, eliminating delays
+typically associated with on-premise procurement and
+installation. With cloud-based infrastructure, banks can
+scale capacity based on demand, optimizing performance
+and cost.
+
+
+The imperative for cloud-enabled, platform-based tech
+architecture is clear, but regulatory uncertainty remains a
+key consideration—both globally and in Indonesia. In our
+research, we found that 61% of financial institutions have
+regulation as a top concern in deploying AI.
+
+
+There is certain ambiguity around specific compliance
+requirements for data storage, processing, and crossborder flows pending the implementation of Law No. 27 of
+2022 on PDP in Indonesia. Nevertheless, Indonesian banks
+can already begin building AI solutions on compliant cloud
+stacks—as chapter five of this report will illustrate.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **17**
+
+
+As with data, achieving AI value at scale requires
+developing AI solutions and modernizing the tech stack in
+parallel, rather than sequentially. This should be a top
+priority for banks, along with ensuring that AI initiatives
+align with the bank’s broader AI goals.
+
+
+**Accelerate shift to a cloud-**
+**enabled hybrid tech stack,**
+**enabled by proactive triparty**
+**engagement**
+
+
+To get AI programs off the ground, banks need to secure
+the right mix of technical, analytical, and change
+management talent. However, AI-ready talent remains
+scarce across the world and in Indonesia where
+competition for experienced professionals is intensifying.
+As one banking leader shared “Data scientists [and] people
+with knowledge of the business and change management
+capabilities are very hard to find in Indonesia.”
+
+
+**EXHIBIT 9**
+
+
+
+Given this talent gap, banks must change how they
+approach talent sourcing and explore methods beyond
+traditional hiring. A balanced ‘buy’, ‘borrow’, and ‘build’
+strategy—which combines recruitment, partnerships, and
+upskilling—offers banks alternative ways of securing the AI
+talent they need.
+
+
+In the short term, borrowing capabilities through
+partnerships can help Indonesian banks advance their AI
+agendas. One banking leader we interviewed echoed that
+“The best approach would be to involve some partner or
+consultant who has experience with AI.”
+
+
+Banks can draw on a mature ecosystem of infrastructure,
+platform, application, and service providers. In particular,
+strategic partnerships with platform providers that bring
+cloud and AI ready stacks accelerate implementation. We
+found that financial institutions with structured or strategic
+partnerships are twice as likely to have experimented with
+AI agents, demonstrated value, and built libraries of
+reusable AI components to accelerate future development.
+
+
+
+Companies that partner strategically have adopted Agentic AI faster,
+and are building more scalably
+
+
+
+**Companies using partnerships and ecosystems** **[1]** **have**
+**adopted Agentic AI faster** **[2]** **…**
+
+
+
+**... and are more likely to have reusable components to**
+**accelerate further build** **[3]**
+
+
+
+
+
+
+
+**Reuse models**
+**& templates**
+**across workflows**
+
+
+
+**deploy AI agents**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No partnerships Strategic No partnerships Strategic
+partnerships partnerships
+
+
+
+Irrelevant or not valuable
+
+
+Recognize it’s potential but believe it’s too early
+
+
+Experimenting, or deployed with demonstrated value
+
+
+
+Models and prompts are built from scratch for each use case
+
+
+Best practices are shared informally, but no standard way to reuse models or prompts
+
+
+Some reusable components exist, including with company-wide library
+
+
+
+**Source:** BCG Build for the Future 2025 Global Study
+1Does your company use partnerships and ecosystems to deliver AI, and are they selected strategically? (n=147 Financial Institutions)
+2How would you best characterize your company’s current stance on Agentic AI?
+3How structured is your approach to building and reusing AI models and prompts?
+
+
+
+In the medium term, banks should focus on building
+internal capabilities. Upskilling programs across
+technology, data, and AI will help banks create a workforce
+that is capable of designing and scaling AI solutions. Many
+Indonesian banks are already doing this by recruiting
+graduates or junior professionals and investing in their
+growth through ‘learning by doing’ and ‘learning by
+observing’.
+
+
+
+Through a combination of borrowing and building AI
+capabilities, banks can kickstart a talent-impact flywheel.
+Early AI wins, that are delivered through borrowed and
+built capabilities, help banks demonstrate tangible
+business value. This, in turn, will position financial
+institutions as a top contender for AI talents.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **18**
+
+
+However, AI talents can only deliver in the right
+environments. To maximize contributions, banks must
+ensure that AI teams are provided with strong executive
+sponsorship, modern tools, and high-quality data. One
+bank we spoke with described how a high-caliber AI
+engineer—recruited to drive the bank’s AI program—spent
+most of his time fixing data quality issues instead of
+applying his expertise. As a result, the bank was unable to
+fully leverage his skills and deliver on the program’s full
+potential.
+
+
+Over the long term, banks must move beyond ad-hoc
+responses to talent shortages. Building systems that can
+continuously attract, develop, and retain AI capabilities will
+be key as AI reshapes the nature of work banks do and the
+skills needed to thrive.
+
+
+Global AI leaders in banking have already shown what
+success looks like with AI at the wheel. These future-built
+banks will continue to pull ahead through board- and CEOdriven AI programs, transformative AI agendas, and
+AI-ready data, tech, and talent.
+
+
+Indonesian banks may begin from different starting points
+and face unique challenges, but that does not mean that
+they cannot leverage the same playbook to get ahead. To
+rise as an AI leader in banking, Indonesian banks should
+use these proven strategies to guide their journeys from
+experimentation to implementation.
+
+
+- **Think big.** BAI transformations must be led from the
+top down. Banks that aim to reshape key functions or
+create AI-first business processes are the ones realizing
+sustained competitive advantages. With top-level
+sponsorship, anchored in a strong understanding of AI’s
+full potential, these banks are mobilizing capital and
+talent to deliver true impact.
+
+
+- **Start small.** Leading banks have their priorities in order.
+By focusing on a few ‘big rocks’—AI initiatives core to
+the business strategy—these banks are reinforcing tech,
+data, and talent foundations incrementally. Deferring AI
+implementation until tech, data, and talent foundations
+are complete means never starting at all. Future-built
+banks are starting with lighthouse use cases to prove
+value and create momentum, helping secure leadership
+confidence and organizational buy-in.
+
+
+
+
+- **Scale safe.** As banks move from pilots to enterpriselevel deployments, they are partnering with technology
+leaders and ecosystem players to leverage proven
+solutions, accelerate implementation, and manage
+risks. By combining internal capabilities with external
+collaboration, these banks are expanding their AI
+footprint responsibly and with speed.
+
+
+With decisive action and a proven playbook, Indonesian
+banks can leverage global best practice to carve out their
+own areas of leadership in the next era of AI in banking.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **19**
+
+
+## **GenAI & Agentic AI Technology for** **Banking**
+
+
+
+Seizing the GenAI and Agentic AI opportunities requires a
+technology stack that supports both cutting-edge AI
+capabilities and rigorous compliance and security
+standards.
+
+
+Three key technological pillars for such a tech stack are:
+the foundational infrastructure, the unified Model Lifecycle
+(MLOps) platform, and the architecture for building
+complex, autonomous Agentic AI systems. Deploying these
+AI-ready technical components requires robust security
+controls and interoperability/core integration.
+
+
+
+**The Bank-Ready AI Reference**
+**Architecture**
+
+
+The foundation for any regulated AI workload is a robust,
+secure Cloud Infrastructure/Platform that addresses key
+concerns such as data sovereignty, operational resilience,
+and compliance. The architecture is defined by security
+controls and zero-trust principles across five key layers:
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **20**
+
+
+Layer
+
+
+
+General AI Technology
+concept
+
+
+
+Data Plane Scalable Data Warehouse, Data Lake
+Governance, and Data Loss Prevention
+(DLP)
+
+
+Integration Message Queueing/Event Stream
+Processing and Managed ETL/Data
+Transformation Service
+
+
+Serving Container Orchestration Platform and
+Serverless Compute/Microservices
+Platform
+
+
+Security Identity and Access Management (IAM),
+Private Networking/Service Perimeter, and
+Security Posture Management
+
+
+
+FSI Imperative and Compliance
+Focus
+
+
+Data Governance & PII Protection: Provides a
+centralized, high-scale data foundation. Utilizes
+data governance tools to manage metadata,
+lineage, and discovery. DLP tools are critical for
+identifying, classifying, and masking sensitive PII
+before models consume it, ensuring compliance
+by design.
+
+
+Real-Time Responsiveness: Enables
+high-throughput, asynchronous communication
+for Event-Driven Architectures (EDA), vital for
+real-time risk scoring (e.g., fraud) and instant
+customer service. Data transformation services
+prepare complex financial data for model
+consumption.
+
+
+Scalable, Secure Inference: The primary choice
+for mission-critical MLOps deployments, offering
+containerized security, auto-scaling, and
+fine-grained controls for high-volume inference.
+Serverless alternatives support transactional
+model endpoints.
+
+
+Perimeter Control & Data Exfiltration
+Prevention: Mandatory controls establish a
+secure, private perimeter around sensitive
+services (data, models, storage). Ensures the FSI
+maintains cryptographic key sovereignty over its
+data, while security tools provide continuous risk
+and compliance monitoring.
+
+
+Auditability & Observability: Provides
+comprehensive logging and alerting for model
+performance, infrastructure health, and security
+events. This data is non-repudiable and forms
+the core of the regulatory audit trail.
+
+
+
+Ops
+(Monitoring)
+
+
+
+Centralized Logging and Monitoring
+Systems
+
+
+
+**Unified MLOps Platform for**
+**Governance**
+
+
+The deployment of AI is governed by a Unified MLOps
+Platform (Machine Learning Operations Platform) that
+integrates AI/data engineering, data science, and security
+controls to support the rigorous Model Risk Management
+(MRM) framework required by FSIs.
+
+
+- **Model Discovery and Choice:** Institutions gain access
+to a wide repository of models, including proprietary
+Large Language Models (LLMs) and open-source
+models. This "choice of models" allows selection based
+on performance, cost, and latency for specific financial
+tasks.
+
+
+
+
+- **Retrieval-Augmented Generation (RAG) and**
+**Grounding:** This is a critical governance tool that uses
+a Vector Database/Search Engine to securely connect
+Foundation Models to an FSI’s internal, proprietary data
+(e.g., policy manuals, legal clauses). This process, known
+as grounding, compels the model to base responses on
+verified internal data, minimizing hallucinations and
+ensuring factual, verifiable, and compliant outputs.
+
+
+- **Tuning and Pipelines:** The platform supports private
+model customization (e.g., supervised fine-tuning) using
+sensitive institutional data, managed through Workflow
+Orchestration/ML Pipelines. These pipelines automate
+the model development workflow, generating detailed
+lineage records essential for the Risk Management
+function.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **21**
+
+
+- **Guardrails, Evaluation, and Monitoring:** These serve
+as direct governance hooks:
+
+
+**ǃ** **Guardrails:** Enforced via policy APIs to proactively
+
+filter model inputs and outputs, blocking sensitive or
+high-risk content.
+
+
+**ǃ** **Evaluation:** Tools to systematically assess model
+
+quality, bias, and, critically, Explainability (Explainable
+AI), which helps analysts understand feature
+contributions in high-stakes models like credit scoring.
+
+
+**ǃ** **Monitoring:** Continuous monitoring tracks model
+
+drift and data drift in production, alerting risk teams
+to shifting economic patterns that could degrade
+performance in prediction models
+
+
+**Agentic AI Systems Architecture**
+
+
+Agentic AI systems use LLMs to reason, plan, and
+autonomously execute complex, multi-step tasks across
+external systems, such as processing an entire insurance
+claim or managing an anti-money laundering (AML)
+investigation with minimal human intervention. Such
+capabilities are enabled by the following key patterns:
+
+
+Key Agentic AI Patterns
+
+
+**1. Tool-Use (Function Calling):** The fundamental pattern
+where the autonomous agent can dynamically determine
+the need for external information or action. It securely
+and reliably invokes external FSI systems (e.g., CRM
+APIs, core banking systems) to query data or initiate
+transactions (e.g., query policy details, initiate payment).
+
+
+**2. Multi-Step Workflows (Planner/Executor):** For
+complex tasks, a main agent (Planner Agent) breaks
+the request into sub-tasks, which are then executed
+sequentially or in parallel by specialized agents (Executor
+Agents). This allows for complex workflows like AML
+triage, where separate agents research transaction
+history, analyze graph relationships, and write a
+summary report.
+
+
+**3. Iterative Refinement (Reflection):** This selfcorrection pattern involves an agent's output being
+reviewed by a Quality Evaluator Agent **.** If the output fails
+a defined threshold (e.g., lack of factual grounding), the
+agent iterates and re-executes the plan, ensuring higherquality, auditable final results.
+
+
+**4. Human-in-the-Loop (HILT):** Crucial for high-stakes
+regulatory decisions, the agentic flow includes explicit
+pause points for human review, especially before
+irreversible actions (e.g., approving a loan). This
+maintains accountability while the agent generates the
+initial analysis and evidence packet.
+
+
+
+Agentic FSI Architecture Layers
+
+
+Enabling Agentic AI patterns requires enhancements
+to banks’ existing tech stacks. The architecture uses a
+modular, layered design:
+
+
+- **Presentation Layer:** Hosts the front-end (e.g., chatbot,
+internal dashboard) that accepts prompts.
+
+
+- **Orchestration Layer:** Contains the Coordinator Agent
+that performs intent recognition, plans the workflow,
+manages state, and invokes sub-agents.
+
+
+- **Agent Layer:** Houses the specialized Executor Agents
+(e.g., researcher, summarizer, policy checker) that
+connect to the Tool and Data Layers.
+
+
+- **Tool/Data Layer:** The external systems the agent
+interacts with, including data warehouses, core banking
+APIs, and Vector Search (RAG).
+
+
+- **Governance Layer:** Overlays the entire stack, enforcing
+security (service perimeter), policy (Guardrails), and
+auditability (logging).
+
+
+**Bank-Ready Controls and**
+**Interoperability**
+
+
+Security Controls
+
+
+AI deployment requires advanced security features that
+protect the model itself and the data it processes:
+
+
+- **Confidential Computing:** This advanced protection
+goes beyond standard encryption at rest and in transit.
+It involves using Trusted Execution Environments
+(TEEs) to encrypt data and code in use, ensuring the
+processed data is inaccessible even to privileged cloud
+administrators.
+
+
+- **Private Networking and Private Endpoints:** Ensures
+that traffic between on-premises data centers and cloud
+services, or between different cloud services, never
+traverses the public internet, drastically reducing the
+attack surface.
+
+
+- **Identity-Aware Access (IAM):** Governs all access to
+models, data, and tools using a strict least privilege
+principle.
+
+
+- **Audit Trails (Immutable Logging):** All actions,
+including every model inference request, tool call, and
+administrative access, are recorded in immutable logs to
+fulfill regulatory requirements for comprehensive, nonrepudiable audit trails.
+
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **22**
+
+
+Interoperability and Core Integration
+
+
+AI must seamlessly interact with the FSI's existing IT
+landscape, especially legacy core banking systems:
+
+
+- **Hybrid/Multi-Cloud Management:** Allows for the
+consistent deployment and management of AI workloads
+across various cloud environments and on-premises
+systems, enabling models to run close to sensitive data
+when necessary.
+
+
+- **Event-Driven Architectures (EDA) for Core**
+**Integration:** The most common integration point is
+through EDA, where the core system publishes events
+(e.g., "Customer updated") via a managed queue. The AI
+agent subscribes to these events and triggers automated
+analysis or action, successfully decoupling the modern AI
+layer from high-volume core systems.
+
+
+- **Data Integration (Connectors):** Tools that enable
+robust and scalable integration with external services
+and proprietary data stores (e.g., mainframe databases)
+to provide the high-quality, real-time data required for
+Gen AI.
+
+
+BOSTON CONSULTING GROUP  +  GOOGLE CLOUD ACCELERATING THE PATH FROM GENAI POTENTIAL TO PROFIT IN BANKING **23**
+
+
+For information or permission to reprint, please contact
+BCG at **permissions@bcg.com.** To find the latest BCG
+content and register to receive e-alerts on this topic or
+others, please visit **bcg.com.** Follow Boston Consulting
+Group on **LinkedIn**, **Facebook**, and **X (formerly Twitter)** .
+
+
+© Boston Consulting Group 2026. All rights reserved. 1/26
+
+

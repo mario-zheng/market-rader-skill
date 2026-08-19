@@ -1,0 +1,20 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local market-radar state and generated reports
+data/profiles/
+data/observations/
+data/runs/
+data/outputs/
+data/knowledge-index.json
+
+# Temporary and editor files
+*.tmp
+*.log
+.DS_Store
+.idea/
+.vscode/

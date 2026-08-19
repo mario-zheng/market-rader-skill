@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>产品市场雷达</title>
+  <style>
+    :root { color-scheme:light; font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; --ink:#203038; --muted:#66747a; --line:#d7dfdd; --paper:#fffdfa; --canvas:#e8eeeb; --navy:#153943; --teal:#176b68; --mint:#e4f0eb; --brick:#a84837; --gold:#b27a20; --cream:#fbf7ec; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--canvas); }
+    header { position:relative; overflow:hidden; padding:34px clamp(18px,5vw,60px) 31px; color:#fff; background:var(--navy); }
+    header::before { content:""; position:absolute; right:clamp(28px,9vw,150px); top:-92px; width:210px; height:210px; border:1px solid rgba(211,232,224,.28); transform:rotate(45deg); }
+    header::after { content:""; position:absolute; right:clamp(22px,6vw,90px); bottom:27px; width:92px; height:3px; background:var(--gold); box-shadow:14px 8px 0 rgba(178,122,32,.35); }
+    header h1, header p { position:relative; z-index:1; }
+    header h1 { max-width:760px; margin:0 0 9px; font-size:clamp(1.75rem,4vw,2.55rem); font-weight:720; letter-spacing:0; }
+    header p { margin:0; color:#d9e7e5; font-size:.9rem; }
+    nav { position:sticky; top:0; z-index:5; overflow-x:auto; padding:11px clamp(18px,5vw,60px); white-space:nowrap; background:rgba(255,253,250,.96); border-bottom:1px solid var(--line); box-shadow:0 3px 14px rgba(27,53,58,.06); }
+    nav a { display:inline-block; margin-right:20px; color:#37545d; font-size:.83rem; text-decoration:none; border-bottom:2px solid transparent; }
+    nav a:hover { color:var(--teal); border-bottom-color:var(--gold); }
+    main { max-width:1220px; margin:auto; padding:28px clamp(18px,5vw,60px) 54px; }
+    section { position:relative; margin:0 0 17px; padding:20px; background:var(--paper); border:1px solid var(--line); border-radius:8px; box-shadow:0 8px 24px rgba(29,58,62,.055); }
+    section::before { content:""; position:absolute; left:20px; top:0; width:34px; height:3px; background:var(--teal); }
+    section h2 { display:flex; align-items:center; gap:10px; margin:0 0 15px; color:#274852; font-size:1.04rem; letter-spacing:.01em; }
+    section h2::after { content:""; flex:1; height:1px; background:#e4e9e7; }
+    h3 { margin:16px 0 9px; color:#40565d; font-size:.91rem; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; }
+    .facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); }
+    .fact { min-height:88px; padding:13px; background:#fff; }
+    .fact:nth-child(odd) { background:#fbfcfa; }
+    .fact span { display:block; margin-bottom:7px; color:var(--muted); font-size:.76rem; letter-spacing:.03em; }
+    .fact strong { color:#1c5d5a; font-size:1rem; font-weight:680; overflow-wrap:anywhere; }
+    #summary { background:var(--cream); border-color:#e0d4b5; }
+    #summary::before { background:var(--gold); }
+    #balance { background:#f3f8f6; }
+    #cycle { background:#fbf6ee; }
+    #gaps { background:#fffaf3; }
+    .scroll { overflow-x:auto; }
+    table { width:100%; border-collapse:separate; border-spacing:0; font-size:.87rem; }
+    th,td { padding:10px 9px; text-align:left; vertical-align:top; border-bottom:1px solid #e7ebec; }
+    th { color:#38545b; background:#eaf2ef; font-weight:680; }
+    th:first-child { border-top-left-radius:4px; } th:last-child { border-top-right-radius:4px; }
+    tbody tr:nth-child(even) td { background:#fcfdfb; }
+    tbody tr:hover td { background:#f4f8f5; }
+    td { overflow-wrap:anywhere; }
+    .empty { color:var(--muted); font-style:italic; }
+    .positive { color:#087f5b; } .negative { color:var(--brick); } .warning { color:var(--gold); }
+    .chart-block { margin-top:14px; border-top:1px solid #e1e8e5; padding:14px 10px 0; background:#f7faf8; }
+    .chart-block strong { color:#2b5e5c; font-size:.9rem; }
+    svg { display:block; width:100%; height:190px; margin-top:8px; }
+    ul { margin:8px 0; padding-left:20px; }
+    li { margin:5px 0; }
+    a { color:#146b73; }
+    footer { padding:8px 0 20px; color:var(--muted); font-size:.78rem; text-align:center; }
+    @media (max-width:760px) { .grid { grid-template-columns:1fr; } header { padding:27px 18px 26px; } header::before { right:-78px; top:-72px; } nav { padding:10px 18px; } main { padding:18px 18px 38px; } section { padding:15px; } section::before { left:15px; } th,td { min-width:108px; } }
+  </style>
+</head>
+<body>
+  <header><h1 id="title">产品市场雷达</h1><p id="meta"></p></header>
+  <nav aria-label="报告章节"><a href="#summary">综合结论</a><a href="#materials">原材料</a><a href="#market-price">产品价格</a><a href="#balance">供应与需求</a><a href="#cycle">库存变化</a><a href="#trends">趋势</a><a href="#evidence">证据</a></nav>
+  <main>
+    <section id="summary"><h2>1. 综合结论</h2><div id="summary-facts" class="facts"></div></section>
+    <section id="scope"><h2>2. 产品与研究口径</h2><div id="product-facts" class="facts"></div></section>
+    <section id="materials"><h2>3. BOM 与原材料构成</h2><div id="bom-table" class="scroll"></div></section>
+    <section id="material-prices"><h2>4. 原材料价格</h2><div id="material-price-table" class="scroll"></div><h3>未来一个月原材料价格及制造成本判断</h3><p id="cost-outlook" class="empty"></p></section>
+    <section id="market-price"><h2>5. 产品市场价格</h2><div id="product-price-table" class="scroll"></div></section>
+    <div class="grid">
+      <section id="supply"><h2>6. 供给端指标</h2><div id="supply-table" class="scroll"></div></section>
+      <section id="demand"><h2>7. 需求端指标</h2><div id="demand-table" class="scroll"></div></section>
+    </div>
+    <section id="balance"><h2>8. 产品供应与需求对比</h2><div id="balance-facts" class="facts"></div></section>
+    <section id="cycle"><h2>9. 产品库存变化阶段</h2><div id="cycle-facts" class="facts"></div></section>
+    <section id="trends"><h2>10. 历史趋势</h2><div id="trend-content"></div></section>
+    <section id="drivers"><h2>11. 价格、供应和需求变化原因及下月判断</h2><div id="driver-table" class="scroll"></div></section>
+    <section id="gaps"><h2>12. 数据缺口</h2><div id="gap-list"></div></section>
+    <section id="evidence"><h2>13. 来源与证据</h2><div id="evidence-table" class="scroll"></div></section>
+    <footer>页面结构由 market-radar 固定模板生成；文字、数值和表格行来自本次报告 JSON。</footer>
+  </main>
+  <script>
+    const DATA = __MARKET_RADAR_DATA__;
+    const $ = id => document.getElementById(id);
+    const esc = value => String(value == null || value === "" ? "暂无可靠数据" : value).replace(/[&<>\"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]));
+    const join = value => Array.isArray(value) ? value.join("、") : value;
+    const facts = (id, entries) => { $(id).innerHTML = entries.map(([label,value]) => `<div class="fact"><span>${esc(label)}</span><strong>${esc(join(value))}</strong></div>`).join(""); };
+    const table = (id, rows, columns) => {
+      const head = columns.map(column => `<th>${esc(column[0])}</th>`).join("");
+      const body = rows.length ? rows.map(row => `<tr>${columns.map(column => `<td>${esc(join(row[column[1]]))}</td>`).join("")}</tr>`).join("") : `<tr><td colspan="${columns.length}" class="empty">暂无可靠数据</td></tr>`;
+      $(id).innerHTML = `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+    };
+    document.title = DATA.title;
+    $("title").textContent = DATA.title;
+    $("meta").textContent = `数据截至：${DATA.as_of} · 报告状态：${DATA.status}`;
+    const product = DATA.product;
+    const summary = DATA.executive_summary;
+    const material = DATA.material_stage;
+    const market = DATA.market_stage;
+    facts("summary-facts", [["当前产品市场情况",summary.market_state],["原材料及制造成本变化",summary.cost_signal],["当前产品供应与需求",summary.supply_demand_signal],["当前产品库存变化",summary.inventory_signal],["综合结论",summary.conclusion]]);
+    facts("product-facts", [["产品",product.canonical_name],["细分路径",product.subcategory_path],["规格",product.specification],["地区",product.region],["分类确认",product.classification_confirmation]]);
+    table("bom-table", material.bom, [["原材料/部件","material"],["作用","role"],["占比","share"],["占比口径","share_basis"],["核心","core"],["代表供应商","suppliers"]]);
+    table("material-price-table", material.prices, [["原材料","material"],["当前价格","price"],["单位","unit"],["当日涨跌","daily_change"],["较上周","weekly_change"],["较上月","monthly_change"],["下月预期","next_month_outlook"],["置信度","confidence"],["验证状态","verification_status"],["日期","as_of"]]);
+    $("cost-outlook").textContent = material.cost_outlook || "暂无可靠数据";
+    table("product-price-table", market.product_prices, [["市场","market"],["规格","specification"],["价格类型","price_type"],["价格","price"],["单位","unit"],["当期涨跌","change"],["较上周","weekly_change"],["较上月","monthly_change"],["日期","as_of"],["置信度","confidence"],["验证状态","verification_status"]]);
+    const metricColumns = [["指标","name"],["数值","value"],["单位","unit"],["所属期","period"],["变化","change"],["置信度","confidence"]];
+    table("supply-table", market.supply_metrics, metricColumns);
+    table("demand-table", market.demand_metrics, metricColumns);
+    const balance = market.supply_demand;
+    facts("balance-facts", [["供应量减需求量",balance.balance == null ? null : `${balance.balance} ${balance.unit || ""}`],["当前产品供需判断",balance.judgement],["计算方法",balance.method],["置信度",balance.confidence]]);
+    const cycle = market.inventory_cycle;
+    facts("cycle-facts", [["产品需求环比",cycle.demand_change],["产品库存环比",cycle.inventory_change],["平坦阈值",cycle.threshold],["库存变化阶段",cycle.stage],["置信度",cycle.confidence],["库存变化说明及对产品供应的影响",cycle.note]]);
+    const eligible = DATA.trends.filter(item => item.trend_eligible && Array.isArray(item.points) && item.points.length >= 2);
+    const chart = item => {
+      const points = item.points.filter(point => Number.isFinite(Number(point.value)));
+      if (points.length < 2) return "";
+      const values = points.map(point => Number(point.value)); const min = Math.min(...values); const max = Math.max(...values); const span = max - min || 1;
+      const coords = values.map((value,index) => `${2 + index/(values.length-1)*96},${170-(value-min)/span*145}`).join(" ");
+      return `<div class="chart-block"><strong>${esc(item.label)}</strong><svg viewBox="0 0 100 190" preserveAspectRatio="none" role="img" aria-label="${esc(item.label)}趋势"><line x1="2" y1="170" x2="98" y2="170" stroke="#d9e0e2"/><polyline points="${coords}" fill="none" stroke="#176b68" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg><p class="empty">${esc(points[0].as_of)} 至 ${esc(points[points.length-1].as_of)} · ${esc(item.unit)}</p></div>`;
+    };
+    $("trend-content").innerHTML = eligible.length ? eligible.map(chart).join("") : `<p class="empty">可比历史数据少于 2 个日期，暂不绘制趋势。</p>`;
+    table("driver-table", DATA.drivers, [["维度","dimension"],["方向","direction"],["判断","statement"],["期限","horizon"],["置信度","confidence"]]);
+    $("gap-list").innerHTML = DATA.data_gaps.length ? `<ul>${DATA.data_gaps.map(item => `<li>${esc(item)}</li>`).join("")}</ul>` : `<p class="empty">未记录数据缺口</p>`;
+    const evidenceRows = DATA.evidence.map(item => ({...item, source:item.url || item.path || "", publisher:item.publisher || ""}));
+    table("evidence-table", evidenceRows, [["ID","evidence_id"],["标题","title"],["机构","publisher"],["来源","source"],["发布日期","published_date"],["数据期","period"],["置信度","confidence"]]);
+  </script>
+</body>
+</html>
