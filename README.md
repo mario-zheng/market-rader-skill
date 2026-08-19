@@ -39,4 +39,5 @@ market-radar/
 - 数据来源、置信度和数据缺口
 
 ## 效果展示
+<img width="1853" height="888" alt="image" src="https://github.com/user-attachments/assets/f8042027-5ad6-4f28-a899-6ccfa62be902" />
 
