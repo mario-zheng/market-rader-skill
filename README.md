@@ -40,4 +40,11 @@ market-radar/
 
 ## 效果展示
 <img width="1853" height="888" alt="image" src="https://github.com/user-attachments/assets/f8042027-5ad6-4f28-a899-6ccfa62be902" />
+<img width="1659" height="830" alt="image" src="https://github.com/user-attachments/assets/ff67b114-e37d-42f6-85ee-b43b9385d8cb" />
+<img width="1639" height="810" alt="image" src="https://github.com/user-attachments/assets/474da1b5-6176-4c06-9a41-be4b70e516ea" />
+<img width="1641" height="827" alt="image" src="https://github.com/user-attachments/assets/fc766be6-baf5-40bf-950b-14c89518a159" />
+<img width="1656" height="593" alt="image" src="https://github.com/user-attachments/assets/481a98e0-c0d7-4643-9437-c2a2b768283b" />
+<img width="1645" height="679" alt="image" src="https://github.com/user-attachments/assets/457212d8-2d98-4d9e-b027-a5f29b2762a7" />
+<img width="1658" height="794" alt="image" src="https://github.com/user-attachments/assets/afc4bb07-adfe-463f-a60c-05d636a4288e" />
+<img width="1653" height="675" alt="image" src="https://github.com/user-attachments/assets/f0251ca6-5e5f-46f1-aa40-0d2ccbeb6e49" />
 
